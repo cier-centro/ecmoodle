@@ -8,7 +8,16 @@
 }
 .footer {
     height: 70px;
-    @include shadow-properties(#5a407a, #7859a5);
+}
+.first-page {
+    .footer {
+        @include shadow-properties($first-page-header-bg-color, $first-page-header-bg-shadow);
+    }
+}
+.second-page {
+    .footer {
+        @include shadow-properties($second-page-header-bg-shadow, $second-page-footer-bg-shadow);
+    }
 }
 
 @media (max-width: 991px) {

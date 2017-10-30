@@ -14,7 +14,9 @@
   background: url("../img/img_background.png") no-repeat 0 100%/contain; }
 
 .footer {
-  height: 70px;
+  height: 70px; }
+
+.first-page .footer {
   background: #5a407a;
   background: -moz-linear-gradient(left, #5a407a 0%, #7859a5 100%);
   background: -webkit-gradient(left top, right top, color-stop(0%, #5a407a), color-stop(100%, #7859a5));
@@ -23,6 +25,16 @@
   background: -ms-linear-gradient(left, #5a407a 0%, #7859a5 100%);
   background: linear-gradient(to right, #5a407a 0%, #7859a5 100%);
   filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#5a407a', endColorstr='#7859a5', GradientType=1 ); }
+
+.second-page .footer {
+  background: #d68a2b;
+  background: -moz-linear-gradient(left, #d68a2b 0%, #e6b741 100%);
+  background: -webkit-gradient(left top, right top, color-stop(0%, #d68a2b), color-stop(100%, #e6b741));
+  background: -webkit-linear-gradient(left, #d68a2b 0%, #e6b741 100%);
+  background: -o-linear-gradient(left, #d68a2b 0%, #e6b741 100%);
+  background: -ms-linear-gradient(left, #d68a2b 0%, #e6b741 100%);
+  background: linear-gradient(to right, #d68a2b 0%, #e6b741 100%);
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#d68a2b', endColorstr='#e6b741', GradientType=1 ); }
 
 @media (max-width: 991px) {
   .container {
@@ -53,11 +65,9 @@
     bottom: 9px;
     right: 3%;
     height: 50px;
-    background: #7859a5;
-    z-index: -1;
+    z-index: 0;
     border-radius: 25px; }
   .header h1 {
-    background: #5a407a;
     color: white;
     width: 80%;
     margin: 0 0 0 -40px;
@@ -65,7 +75,18 @@
     font-size: 20px;
     font-weight: 600;
     border-radius: 50px;
-    text-align: center; }
+    text-align: center;
+    z-index: 0; }
+
+.first-page .header:before {
+  background: #7859a5 !important; }
+.first-page .header h1 {
+  background: #5a407a !important; }
+
+.second-page .header:before {
+  background: #d68a2b !important; }
+.second-page .header h1 {
+  background: #ca622c !important; }
 
 /**
 * Content
@@ -163,10 +184,14 @@
   .ecmoodle-content {
     display: flex;
     align-items: flex-end; }
-    .ecmoodle-content .left-section .item label {
-      font-size: 20px; } }
+  .first-page .ecmoodle-content .left-section .item label {
+    font-size: 20px; }
+  .second-page .ecmoodle-content .left-section .item label {
+    font-size: 17px; } }
 @media (max-width: 991px) {
-  .ecmoodle-content .left-section .item label {
-    font-size: 18px; } }
+  .first-page .ecmoodle-content .left-section .item label {
+    font-size: 18px; }
+  .second-page .ecmoodle-content .left-section .item label {
+    font-size: 14px; } }
 
 /*# sourceMappingURL=styles.css.map */

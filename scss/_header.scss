@@ -29,12 +29,10 @@
         bottom: 9px;
         right: 3%;
         height: 50px;
-        background: $header-bg-shadow;
-        z-index: -1;
+        z-index: 0;
         border-radius: 25px;
     }
     h1 {
-        background: $header-bg-color;
         color: white;
         width: 80%;
         margin: 0 0 0 -40px;
@@ -43,5 +41,26 @@
         font-weight: 600;
         border-radius: 50px;
         text-align: center;
+        z-index: 0;
+    }
+}
+.first-page {
+    .header {
+        &:before {
+            background: $first-page-header-bg-shadow !important;
+        }
+        h1 {
+            background: $first-page-header-bg-color !important;
+        }
+    }
+}
+.second-page {
+    .header {
+        &:before {
+            background: $second-page-header-bg-shadow !important;
+        }
+        h1 {
+            background: $second-page-header-bg-color !important;
+        }
     }
 }

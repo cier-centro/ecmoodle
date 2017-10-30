@@ -149,16 +149,27 @@
         & {
             display: flex;
             align-items: flex-end;
-
+        }
+        .first-page & {
             .left-section .item label {
                 font-size: 20px;
             }
         }
+        .second-page & {
+            .left-section .item label {
+                font-size: 17px;
+            }
+        }
     }
     @media (max-width: 991px) {
-        & {
+        .first-page & {
             .left-section .item label {
                 font-size: 18px;
+            }
+        }
+        .second-page & {
+            .left-section .item label {
+                font-size: 14px;
             }
         }
     }
