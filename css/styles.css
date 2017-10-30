@@ -11,16 +11,31 @@
 * --------------------------------------------------
 */
 .container {
-  background: url("../img/img_background.png") no-repeat 0 0/50% auto; }
+  background: url("../img/img_background.png") no-repeat 0 100%/contain; }
 
+.footer {
+  height: 70px;
+  background: #5a407a;
+  background: -moz-linear-gradient(left, #5a407a 0%, #7859a5 100%);
+  background: -webkit-gradient(left top, right top, color-stop(0%, #5a407a), color-stop(100%, #7859a5));
+  background: -webkit-linear-gradient(left, #5a407a 0%, #7859a5 100%);
+  background: -o-linear-gradient(left, #5a407a 0%, #7859a5 100%);
+  background: -ms-linear-gradient(left, #5a407a 0%, #7859a5 100%);
+  background: linear-gradient(to right, #5a407a 0%, #7859a5 100%);
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#5a407a', endColorstr='#7859a5', GradientType=1 ); }
+
+@media (max-width: 991px) {
+  .container {
+    background: url("../img/img_background.png") no-repeat 0 100%/cover !important; } }
 /**
 * Header
 * --------------------------------------------------
 */
 .header {
-  margin-top: 40px;
+  margin-top: 30px;
   display: flex;
-  align-items: center; }
+  align-items: center;
+  position: relative; }
   .header .logo {
     background: white;
     padding: 10px;
@@ -32,13 +47,21 @@
     .header .logo img {
       margin: auto; }
   .header:before {
-    content: ""; }
+    content: "";
+    width: 350px;
+    position: absolute;
+    bottom: 9px;
+    right: 3%;
+    height: 50px;
+    background: #7859a5;
+    z-index: -1;
+    border-radius: 25px; }
   .header h1 {
     background: #5a407a;
     color: white;
     width: 80%;
     margin: 0 0 0 -40px;
-    padding: 15px 15px 15px 65px;
+    padding: 15px 65px;
     font-size: 20px;
     font-weight: 600;
     border-radius: 50px;
@@ -50,34 +73,100 @@
 */
 .ecmoodle-content .left-section {
   margin-top: 30px; }
-  .ecmoodle-content .left-section .item .number-container {
-    height: 200px;
-    width: 200px; }
-  .ecmoodle-content .left-section .item span {
-    background: #e59a48;
-    border-radius: 50%;
-    font-size: 40px;
-    color: white;
-    font-weight: 600;
-    height: 75px;
-    width: 75px;
-    display: inline-flex;
-    border: 5px solid #d68a2b;
-    position: relative;
-    overflow: hidden;
+  .ecmoodle-content .left-section .item {
+    display: flex;
     align-items: center;
-    justify-content: center;
-    z-index: 1; }
-    .ecmoodle-content .left-section .item span:before {
-      content: "";
-      background: #d68a2b;
-      position: absolute;
-      top: 0;
-      left: 0;
-      height: 100%;
-      width: 50%;
-      z-index: -1; }
+    margin-top: -40px; }
+    .ecmoodle-content .left-section .item label {
+      height: 81px;
+      background: rgba(255, 255, 255, 0.7);
+      margin: 0 0 0 -62px;
+      padding: 0 60px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      width: 87%;
+      text-align: center;
+      border-top-right-radius: 41px;
+      border-bottom-right-radius: 41px;
+      line-height: 110%; }
+    .ecmoodle-content .left-section .item .number-container {
+      height: 180px;
+      width: 125px;
+      display: inline-flex;
+      align-items: center;
+      justify-content: center; }
+    .ecmoodle-content .left-section .item .number-container-border {
+      border: 7px solid white;
+      border-radius: 50%; }
+      .ecmoodle-content .left-section .item .number-container-border span {
+        border-radius: 50%;
+        font-size: 40px;
+        color: white;
+        font-weight: 600;
+        height: 67px;
+        width: 67px;
+        display: inline-flex;
+        border: 5px solid;
+        position: relative;
+        overflow: hidden;
+        align-items: center;
+        justify-content: center;
+        z-index: 1; }
+        .ecmoodle-content .left-section .item .number-container-border span:before {
+          content: "";
+          position: absolute;
+          top: 0;
+          left: 0;
+          height: 100%;
+          width: 50%;
+          z-index: -1; }
+    .ecmoodle-content .left-section .item:first-child label {
+      color: #d68a2b; }
+    .ecmoodle-content .left-section .item:first-child .number-container {
+      background: url("../img/img_item_1.png") no-repeat center/cover; }
+    .ecmoodle-content .left-section .item:first-child .number-container-border span {
+      background: #e59a48;
+      border-color: #d68a2b; }
+      .ecmoodle-content .left-section .item:first-child .number-container-border span:before {
+        background: #d68a2b; }
+    .ecmoodle-content .left-section .item:nth-child(2) label {
+      color: #ca622c; }
+    .ecmoodle-content .left-section .item:nth-child(2) .number-container {
+      background: url("../img/img_item_2.png") no-repeat center/cover; }
+    .ecmoodle-content .left-section .item:nth-child(2) .number-container-border span {
+      background: #e27a4d;
+      border-color: #ca622c; }
+      .ecmoodle-content .left-section .item:nth-child(2) .number-container-border span:before {
+        background: #ca622c; }
+    .ecmoodle-content .left-section .item:nth-child(3) label {
+      color: #a34486; }
+    .ecmoodle-content .left-section .item:nth-child(3) .number-container {
+      background: url("../img/img_item_3.png") no-repeat center/cover; }
+    .ecmoodle-content .left-section .item:nth-child(3) .number-container-border span {
+      background: #b75ea0;
+      border-color: #a34486; }
+      .ecmoodle-content .left-section .item:nth-child(3) .number-container-border span:before {
+        background: #a34486; }
+    .ecmoodle-content .left-section .item:nth-child(4) label {
+      color: #613d7c; }
+    .ecmoodle-content .left-section .item:nth-child(4) .number-container {
+      background: url("../img/img_item_4.png") no-repeat center/cover; }
+    .ecmoodle-content .left-section .item:nth-child(4) .number-container-border span {
+      background: #9a83aa;
+      border-color: #613d7c; }
+      .ecmoodle-content .left-section .item:nth-child(4) .number-container-border span:before {
+        background: #613d7c; }
 .ecmoodle-content .right-section img {
   margin: auto; }
+@media (min-width: 992px) {
+  .ecmoodle-content {
+    display: flex;
+    align-items: flex-end; }
+    .ecmoodle-content .left-section .item label {
+      font-size: 20px; } }
+@media (max-width: 991px) {
+  .ecmoodle-content .left-section .item label {
+    font-size: 18px; } }
 
 /*# sourceMappingURL=styles.css.map */

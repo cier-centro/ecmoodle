@@ -4,5 +4,15 @@
 */
 
 .container {
-    background: url('#{$images-path}img_background.png') no-repeat 0 0 / 50% auto;
+    background: url('#{$images-path}img_background.png') no-repeat 0 100%/contain;
+}
+.footer {
+    height: 70px;
+    @include shadow-properties(#5a407a, #7859a5);
+}
+
+@media (max-width: 991px) {
+    .container {
+        background: url('#{$images-path}img_background.png') no-repeat 0 100%/cover !important;
+    }
 }

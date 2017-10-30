@@ -4,9 +4,10 @@
 */
 
 .header {
-    margin-top: 40px;
+    margin-top: 30px;
     display: flex;
     align-items: center;
+    position: relative;
 
     .logo {
         background: white;
@@ -23,13 +24,21 @@
     }
     &:before {
         content: "";
+        width: 350px;
+        position: absolute;
+        bottom: 9px;
+        right: 3%;
+        height: 50px;
+        background: $header-bg-shadow;
+        z-index: -1;
+        border-radius: 25px;
     }
     h1 {
         background: $header-bg-color;
         color: white;
         width: 80%;
         margin: 0 0 0 -40px;
-        padding: 15px 15px 15px 65px;
+        padding: 15px 65px;
         font-size: 20px;
         font-weight: 600;
         border-radius: 50px;

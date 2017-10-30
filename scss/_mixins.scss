@@ -7,3 +7,14 @@
     -moz-box-shadow: $values;
     box-shadow: $values;
 }
+
+@mixin shadow-properties($value1, $value2) {
+    background: $value1;
+    background: -moz-linear-gradient(left, $value1 0%, $value2 100%);
+    background: -webkit-gradient(left top, right top, color-stop(0%, $value1), color-stop(100%, $value2));
+    background: -webkit-linear-gradient(left, $value1 0%, $value2 100%);
+    background: -o-linear-gradient(left, $value1 0%, $value2 100%);
+    background: -ms-linear-gradient(left, $value1 0%, $value2 100%);
+    background: linear-gradient(to right, $value1 0%, $value2 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#{$value1}', endColorstr='#{$value2}', GradientType=1 );
+}
