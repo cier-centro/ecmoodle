@@ -1,0 +1,49 @@
+/**
+* Content
+* --------------------------------------------------
+*/
+
+.ecmoodle-content {
+    .left-section {
+      margin-top: 30px;
+      
+        .item {
+            .number-container {
+                height: 200px;
+                width: 200px;
+            }
+            span {
+                background: #e59a48;
+                border-radius: 50%;
+                font-size: 40px;
+                color: white;
+                font-weight: 600;
+                height: 75px;
+                width: 75px;
+                display: inline-flex;
+                border: 5px solid #d68a2b;
+                position: relative;
+                overflow: hidden;
+                align-items: center;
+                justify-content: center;
+                z-index: 1;
+
+                &:before {
+                  content: "";
+                  background: #d68a2b;
+                  position: absolute;
+                  top: 0;
+                  left: 0;
+                  height: 100%;
+                  width: 50%;
+                  z-index: -1;
+                }
+            }
+        }
+    }
+    .right-section {
+        img {
+            margin: auto;
+        }
+    }
+}
