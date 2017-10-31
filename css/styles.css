@@ -189,6 +189,8 @@
   .second-page .ecmoodle-content .left-section .item label {
     font-size: 17px; } }
 @media (max-width: 991px) {
+  .ecmoodle-content .right-section img {
+    max-width: 290px; }
   .first-page .ecmoodle-content .left-section .item label {
     font-size: 18px; }
   .second-page .ecmoodle-content .left-section .item label {

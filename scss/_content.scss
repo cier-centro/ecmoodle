@@ -162,6 +162,13 @@
         }
     }
     @media (max-width: 991px) {
+        & {
+          .right-section {
+              img {
+                  max-width: 290px;
+              }
+          }
+        }
         .first-page & {
             .left-section .item label {
                 font-size: 18px;
