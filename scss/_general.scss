@@ -8,7 +8,7 @@
 }
 .buttons-container {
     text-align: center;
-    margin: 20px -15px;
+    margin: 20px 1px;
 
     a {
         @include shadow-properties($second-page-header-bg-shadow, $second-page-footer-bg-shadow);

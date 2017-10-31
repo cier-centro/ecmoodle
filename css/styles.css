@@ -15,7 +15,7 @@
 
 .buttons-container {
   text-align: center;
-  margin: 20px -15px; }
+  margin: 20px 1px; }
   .buttons-container a {
     background: #d68a2b;
     background: -moz-linear-gradient(left, #d68a2b 0%, #e6b741 100%);
