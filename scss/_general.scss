@@ -6,6 +6,46 @@
 .container {
     background: url('#{$images-path}img_background.png') no-repeat 0 100%/contain;
 }
+.buttons-container {
+    text-align: center;
+    margin: 20px -15px;
+
+    a {
+        @include shadow-properties($second-page-header-bg-shadow, $second-page-footer-bg-shadow);
+        text-transform: uppercase;
+        border: none;
+        border-top-right-radius: 15px;
+        border-bottom-right-radius: 15px;
+        padding: 7px 20px 7px 40px;
+        position: relative;
+        margin-bottom: 10px;
+
+        &:hover {
+            @include shadow-properties($second-page-footer-bg-shadow, $second-page-header-bg-shadow);
+        }
+
+        &:before {
+            content: "";
+            position: absolute;
+            height: 45px;
+            width: 45px;
+            top: -5px;
+            left: -15px;
+        }
+    }
+    a:first-child {
+        &:before {
+            background: url('#{$images-path}img_icon_welcome.png') no-repeat center/contain;
+        }
+    }
+    a:nth-child(2) {
+        margin-left: 50px;
+
+        &:before {
+            background: url('#{$images-path}img_icon_learning.png') no-repeat center/contain;
+        }
+    }
+}
 .footer {
     height: 70px;
 }

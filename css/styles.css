@@ -13,6 +13,48 @@
 .container {
   background: url("../img/img_background.png") no-repeat 0 100%/contain; }
 
+.buttons-container {
+  text-align: center;
+  margin: 20px -15px; }
+  .buttons-container a {
+    background: #d68a2b;
+    background: -moz-linear-gradient(left, #d68a2b 0%, #e6b741 100%);
+    background: -webkit-gradient(left top, right top, color-stop(0%, #d68a2b), color-stop(100%, #e6b741));
+    background: -webkit-linear-gradient(left, #d68a2b 0%, #e6b741 100%);
+    background: -o-linear-gradient(left, #d68a2b 0%, #e6b741 100%);
+    background: -ms-linear-gradient(left, #d68a2b 0%, #e6b741 100%);
+    background: linear-gradient(to right, #d68a2b 0%, #e6b741 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#d68a2b', endColorstr='#e6b741', GradientType=1 );
+    text-transform: uppercase;
+    border: none;
+    border-top-right-radius: 15px;
+    border-bottom-right-radius: 15px;
+    padding: 7px 20px 7px 40px;
+    position: relative;
+    margin-bottom: 10px; }
+    .buttons-container a:hover {
+      background: #e6b741;
+      background: -moz-linear-gradient(left, #e6b741 0%, #d68a2b 100%);
+      background: -webkit-gradient(left top, right top, color-stop(0%, #e6b741), color-stop(100%, #d68a2b));
+      background: -webkit-linear-gradient(left, #e6b741 0%, #d68a2b 100%);
+      background: -o-linear-gradient(left, #e6b741 0%, #d68a2b 100%);
+      background: -ms-linear-gradient(left, #e6b741 0%, #d68a2b 100%);
+      background: linear-gradient(to right, #e6b741 0%, #d68a2b 100%);
+      filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#e6b741', endColorstr='#d68a2b', GradientType=1 ); }
+    .buttons-container a:before {
+      content: "";
+      position: absolute;
+      height: 45px;
+      width: 45px;
+      top: -5px;
+      left: -15px; }
+  .buttons-container a:first-child:before {
+    background: url("../img/img_icon_welcome.png") no-repeat center/contain; }
+  .buttons-container a:nth-child(2) {
+    margin-left: 50px; }
+    .buttons-container a:nth-child(2):before {
+      background: url("../img/img_icon_learning.png") no-repeat center/contain; }
+
 .footer {
   height: 70px; }
 
@@ -73,7 +115,7 @@
     margin: 0 0 0 -40px;
     padding: 15px 65px;
     font-size: 20px;
-    font-weight: 600;
+    font-weight: 500;
     border-radius: 50px;
     text-align: center;
     z-index: 0; }
