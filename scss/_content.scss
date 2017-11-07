@@ -13,7 +13,7 @@
           align-items: center;
           margin-top: -40px;
 
-            label {
+            a {
               height: 81px;
               background: rgba(white, 0.7);
               margin: 0 0 0 -62px;
@@ -26,6 +26,8 @@
               border-top-right-radius: 41px;
               border-bottom-right-radius: 41px;
               line-height: 110%;
+              font-weight: 600;
+              cursor: pointer;
             }
             .number-container {
                 height: 180px;
@@ -66,7 +68,7 @@
             }
 
             &:first-child {
-                label {
+                a {
                     color: $first-item-color;
                 }
                 .number-container {
@@ -84,7 +86,7 @@
                 }
             }
             &:nth-child(2) {
-                label {
+                a {
                     color: $second-item-color;
                 }
                 .number-container {
@@ -102,7 +104,7 @@
                 }
             }
             &:nth-child(3) {
-                label {
+                a {
                     color: $third-item-color;
                 }
                 .number-container {
@@ -120,7 +122,7 @@
                 }
             }
             &:nth-child(4) {
-                label {
+                a {
                     color: $fourth-item-color;
                 }
                 .number-container {
@@ -151,12 +153,12 @@
             align-items: flex-end;
         }
         .first-page & {
-            .left-section .item label {
+            .left-section .item a {
                 font-size: 20px;
             }
         }
         .second-page & {
-            .left-section .item label {
+            .left-section .item a {
                 font-size: 16px;
             }
         }
@@ -170,12 +172,12 @@
           }
         }
         .first-page & {
-            .left-section .item label {
+            .left-section .item a {
                 font-size: 18px;
             }
         }
         .second-page & {
-            .left-section .item label {
+            .left-section .item a {
                 font-size: 14px;
             }
         }
