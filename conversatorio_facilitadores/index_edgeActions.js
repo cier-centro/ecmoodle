@@ -14,7 +14,7 @@ var Composition = Edge.Composition, Symbol = Edge.Symbol; // los alias más comu
       
       
       Symbol.bindElementAction(compId, symbolName, "${_hotspot_1}", "click", function(sym, e) {
-         window.open("ec_rcf_1.html", "_self");
+         window.open("ec_rcf_2.html", "_self");
          
 
       });
@@ -46,6 +46,12 @@ var Composition = Edge.Composition, Symbol = Edge.Symbol; // los alias más comu
 
       Symbol.bindElementAction(compId, symbolName, "${_hotspot_6}", "click", function(sym, e) {
          window.open("ec_rcf_6.html", "_self");
+
+      });
+      //Edge binding end
+
+      Symbol.bindElementAction(compId, symbolName, "${_hotspot_guia}", "click", function(sym, e) {
+         window.open("pdf/gia_de_navegacion.pdf", "_blacnk");
 
       });
       //Edge binding end
@@ -88,6 +94,92 @@ var Composition = Edge.Composition, Symbol = Edge.Symbol; // los alias más comu
    //=========================================================
 
    //=========================================================
+
+   //=========================================================
+   
+   //Edge symbol: 'trunk'
+   (function(symbolName) {   
+   
+      Symbol.bindTriggerAction(compId, symbolName, "Default Timeline", 21000, function(sym, e) {
+         sym.play(0);
+
+      });
+      //Edge binding end
+
+   })("trunk");
+   //Edge symbol end:'trunk'
+
+   //=========================================================
+   
+   //Edge symbol: 'head'
+   (function(symbolName) {   
+   
+   })("head");
+   //Edge symbol end:'head'
+
+   //=========================================================
+   
+   //Edge symbol: 'aprendiz_3'
+   (function(symbolName) {   
+   
+      Symbol.bindTriggerAction(compId, symbolName, "Default Timeline", 21000, function(sym, e) {
+         sym.play(0);
+
+      });
+      //Edge binding end
+
+   })("character");
+   //Edge symbol end:'character'
+
+   //=========================================================
+
+   //=========================================================
+
+   //=========================================================
+   
+   //Edge symbol: 'expressions_3'
+   (function(symbolName) {   
+   
+      Symbol.bindTriggerAction(compId, symbolName, "Default Timeline", 21000, function(sym, e) {
+         sym.play(0);
+
+      });
+      //Edge binding end
+
+   })("mouth");
+   //Edge symbol end:'mouth'
+
+   //=========================================================
+   
+   //Edge symbol: 'trunk_1'
+   (function(symbolName) {   
+   
+      Symbol.bindTriggerAction(compId, symbolName, "Default Timeline", 21000, function(sym, e) {
+         sym.play(0);
+
+      });
+         //Edge binding end
+
+      })("trunk_1");
+   //Edge symbol end:'trunk_1'
+
+   //=========================================================
+   
+   //Edge symbol: 'ab_c'
+   (function(symbolName) {   
+   
+      Symbol.bindTriggerAction(compId, symbolName, "Default Timeline", 21000, function(sym, e) {
+         sym.play(0);
+
+      });
+      //Edge binding end
+
+   })("ab_c");
+   //Edge symbol end:'ab_c'
+
+   //=========================================================
+
+   //=========================================================
    
    //Edge symbol: 'brillo'
    (function(symbolName) {   
@@ -118,8 +210,6 @@ var Composition = Edge.Composition, Symbol = Edge.Symbol; // los alias más comu
    //=========================================================
 
    //=========================================================
-
-   //=========================================================
    
    //Edge symbol: 'chest'
    (function(symbolName) {   
@@ -144,16 +234,16 @@ var Composition = Edge.Composition, Symbol = Edge.Symbol; // los alias más comu
       });
       //Edge binding end
 
-   })("trunk");
-   //Edge symbol end:'trunk'
+   })("trunk_2");
+   //Edge symbol end:'trunk_2'
 
    //=========================================================
    
    //Edge symbol: 'head'
    (function(symbolName) {   
    
-   })("head");
-   //Edge symbol end:'head'
+   })("head_1");
+   //Edge symbol end:'head_1'
 
    //=========================================================
    
@@ -172,8 +262,8 @@ var Composition = Edge.Composition, Symbol = Edge.Symbol; // los alias más comu
       });
       //Edge binding end
 
-   })("mouth");
-   //Edge symbol end:'mouth'
+   })("mouth_1");
+   //Edge symbol end:'mouth_1'
 
    //=========================================================
    
@@ -186,8 +276,8 @@ var Composition = Edge.Composition, Symbol = Edge.Symbol; // los alias más comu
       });
       //Edge binding end
 
-   })("character");
-   //Edge symbol end:'character'
+   })("character_1");
+   //Edge symbol end:'character_1'
 
    //=========================================================
    
@@ -202,83 +292,5 @@ var Composition = Edge.Composition, Symbol = Edge.Symbol; // los alias más comu
 
    })("eyes");
    //Edge symbol end:'eyes'
-
-   //=========================================================
-   
-   //Edge symbol: 'character_1'
-   (function(symbolName) {   
-   
-      Symbol.bindTriggerAction(compId, symbolName, "Default Timeline", 21000, function(sym, e) {
-         sym.play(0);
-
-      });
-      //Edge binding end
-
-   })("character_1");
-   //Edge symbol end:'character_1'
-
-   //=========================================================
-   
-   //Edge symbol: 'ab_c'
-   (function(symbolName) {   
-   
-      Symbol.bindTriggerAction(compId, symbolName, "Default Timeline", 21000, function(sym, e) {
-         sym.play(0);
-
-      });
-      //Edge binding end
-
-   })("ab_c");
-   //Edge symbol end:'ab_c'
-
-   //=========================================================
-   
-   //Edge symbol: 'trunk_1'
-   (function(symbolName) {   
-   
-      Symbol.bindTriggerAction(compId, symbolName, "Default Timeline", 21000, function(sym, e) {
-         sym.play(0);
-
-      });
-      //Edge binding end
-
-   })("trunk_1");
-   //Edge symbol end:'trunk_1'
-
-   //=========================================================
-   
-   //Edge symbol: 'expressions'
-   (function(symbolName) {   
-   
-      Symbol.bindTriggerAction(compId, symbolName, "Default Timeline", 21000, function(sym, e) {
-         sym.play(0);
-
-      });
-      //Edge binding end
-
-   })("expressions");
-   //Edge symbol end:'expressions'
-
-   //=========================================================
-   
-   //Edge symbol: 'trunk_2'
-   (function(symbolName) {   
-   
-      Symbol.bindTriggerAction(compId, symbolName, "Default Timeline", 21000, function(sym, e) {
-         sym.play(0);
-
-      });
-      //Edge binding end
-
-   })("trunk_2");
-   //Edge symbol end:'trunk_2'
-
-   //=========================================================
-   
-   //Edge symbol: 'head_1'
-   (function(symbolName) {   
-   
-   })("head_1");
-   //Edge symbol end:'head_1'
 
 })(jQuery, AdobeEdge, "EDGE-217058342");
