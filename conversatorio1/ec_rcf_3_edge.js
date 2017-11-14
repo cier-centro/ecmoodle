@@ -41,21 +41,21 @@ var symbols = {
                 id: 'btn_inicio',
                 display: 'none',
                 type: 'image',
-                rect: ['80px', '148px','96px','96px','auto', 'auto'],
+                rect: ['79px', '155px','96px','96px','auto', 'auto'],
                 fill: ["rgba(0,0,0,0)",im+"btn_inicio.png",'0px','0px']
             },
             {
                 id: 'brillo',
                 display: 'none',
                 type: 'rect',
-                rect: ['88px', '156px','auto','auto','auto', 'auto'],
+                rect: ['87px', '163px','auto','auto','auto', 'auto'],
                 transform: [[],[],[],['0.80315','0.80315']]
             },
             {
                 id: 'hotspot_inicio',
                 display: 'none',
                 type: 'ellipse',
-                rect: ['88px', '157px','84px','84px','auto', 'auto'],
+                rect: ['87px', '164px','84px','84px','auto', 'auto'],
                 cursor: ['pointer'],
                 borderRadius: ["50%", "50%", "50%", "50%"],
                 fill: ["rgba(255,255,255,0)"],
@@ -94,17 +94,17 @@ var symbols = {
     states: {
         "Base State": {
             "${_hotspot_inicio}": [
-                ["style", "top", '157px'],
-                ["style", "left", '88px'],
+                ["style", "top", '164px'],
+                ["style", "left", '87px'],
                 ["style", "cursor", 'pointer'],
                 ["style", "display", 'none']
             ],
             "${_brillo}": [
-                ["style", "top", '156px'],
+                ["style", "top", '163px'],
                 ["transform", "scaleY", '0.26964'],
                 ["transform", "scaleX", '0.26964'],
                 ["style", "opacity", '0'],
-                ["style", "left", '88px'],
+                ["style", "left", '87px'],
                 ["style", "display", 'none']
             ],
             "${_etiqueta}": [
@@ -119,11 +119,11 @@ var symbols = {
                 ["style", "width", '1366px']
             ],
             "${_btn_inicio}": [
-                ["style", "top", '148px'],
+                ["style", "top", '155px'],
                 ["transform", "scaleY", '0.33573'],
                 ["transform", "scaleX", '0.33573'],
                 ["style", "opacity", '0'],
-                ["style", "left", '80px'],
+                ["style", "left", '79px'],
                 ["style", "display", 'none']
             ]
         }
@@ -1290,8 +1290,8 @@ var symbols = {
                     rect: ['0px', '0px', '1366px', '768px', 'auto', 'auto'],
                     id: '_2_contenido_ec_rcf_2',
                     type: 'image',
-                    clip: ['rect(127.5751953125px 1366px 274.908203125px 0px)'],
-                    fill: ['rgba(0,0,0,0)', 'images/2_contenido_ec_rcf_3.png', '0px', '48.8857421875px']
+                    clip: ['rect(138.8115234375px 1366px 270.41357421875px 0px)'],
+                    fill: ['rgba(0,0,0,0)', 'images/2_contenido_ec_rcf_3.png', '0px', '45.5146484375px']
                 },
                 {
                     rect: ['0px', '0px', '1366px', '768px', 'auto', 'auto'],
@@ -1423,8 +1423,8 @@ var symbols = {
                 ["style", "top", '0px'],
                 ["style", "left", '-75px'],
                 ["style", "opacity", '0'],
-                ["style", "clip", [127.5751953125,1366,274.908203125,0], {valueTemplate:'rect(@@0@@px @@1@@px @@2@@px @@3@@px)'} ],
-                ["style", "background-position", [0,48.8857421875], {valueTemplate:'@@0@@px @@1@@px'} ]
+                ["style", "clip", [138.8115234375,1366,270.41357421875,0], {valueTemplate:'rect(@@0@@px @@1@@px @@2@@px @@3@@px)'} ],
+                ["style", "background-position", [0,45.5146484375], {valueTemplate:'@@0@@px @@1@@px'} ]
             ],
             "${__2_contenido_ec_rcf_2Copy3}": [
                 ["style", "top", '-33px'],
@@ -1449,8 +1449,8 @@ var symbols = {
             "${__2_contenido_ec_rcf_2Copy}": [
                 ["style", "top", '0px'],
                 ["style", "opacity", '0'],
-                ["style", "clip", [241.964599609375,947.1455078125,407.0205078125,0], {valueTemplate:'rect(@@0@@px @@1@@px @@2@@px @@3@@px)'} ],
-                ["style", "left", '-116px']
+                ["style", "left", '-116px'],
+                ["style", "clip", [241.964599609375,947.1455078125,407.0205078125,0], {valueTemplate:'rect(@@0@@px @@1@@px @@2@@px @@3@@px)'} ]
             ],
             "${_hotspot_3}": [
                 ["style", "top", '410px'],

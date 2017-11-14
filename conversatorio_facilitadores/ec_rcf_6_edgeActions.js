@@ -178,11 +178,7 @@ var Composition = Edge.Composition, Symbol = Edge.Symbol; // los alias más comu
       //Edge binding end
 
       Symbol.bindElementAction(compId, symbolName, "${_hotspot_3}", "click", function(sym, e) {
-         //window.open("pdf/lectura_apoyo.pdf", "_blank");
-         sym.getSymbol("lecturas").play(1);
-         sym.$("lecturas").fadeIn("slow");
-         
-         
+         window.open("pdf/Guía del participante_Facilitadores_Encuentro4.pdf", "_blank");
          sym.$("brillo_r3").hide();
 
       });
@@ -196,13 +192,6 @@ var Composition = Edge.Composition, Symbol = Edge.Symbol; // los alias más comu
       //Edge binding end
 
       
-
-      Symbol.bindElementAction(compId, symbolName, "${_hotspot_4}", "click", function(sym, e) {
-         window.open("pdf/guia_participante_facilitadores_encuentro4.pdf", "_blank");
-         sym.$("brillo_r4").hide();
-
-      });
-      //Edge binding end
 
    })("contenido");
    //Edge symbol end:'contenido'
@@ -241,78 +230,5 @@ var Composition = Edge.Composition, Symbol = Edge.Symbol; // los alias más comu
 
    })("pop_1");
    //Edge symbol end:'pop_1'
-
-   //=========================================================
-
-   //=========================================================
-   
-   //Edge symbol: 'lecturas'
-   (function(symbolName) {   
-   
-      Symbol.bindElementAction(compId, symbolName, "${_HotspotL1}", "click", function(sym, e) {
-         window.open("pdf/lectura_apoyo_0.pdf", "_blank");
-
-      });
-      //Edge binding end
-
-      Symbol.bindElementAction(compId, symbolName, "${_lecturas}", "click", function(sym, e) {
-         sym.getComposition().getStage().getSymbol("contenido").$("lecturas").fadeOut("slow");
-         sym.getComposition().getStage().getSymbol("contenido").$("brillo_r3").show();
-         
-         
-
-      });
-      //Edge binding end
-
-      Symbol.bindElementAction(compId, symbolName, "${_HotspotL2}", "click", function(sym, e) {
-         window.open("pdf/lectura_apoyo_0.pdf", "_blank");
-
-      });
-      //Edge binding end
-
-      Symbol.bindElementAction(compId, symbolName, "${_HotspotL3}", "click", function(sym, e) {
-         window.open("pdf/lectura_apoyo_0.pdf", "_blank");
-
-      });
-      //Edge binding end
-
-      Symbol.bindElementAction(compId, symbolName, "${_HotspotL4}", "click", function(sym, e) {
-         window.open("pdf/lectura_apoyo_0.pdf", "_blank");
-
-      });
-      //Edge binding end
-
-      Symbol.bindElementAction(compId, symbolName, "${_HotspotL5}", "click", function(sym, e) {
-         window.open("pdf/lectura_apoyo_0.pdf", "_blank");
-
-      });
-      //Edge binding end
-
-      Symbol.bindElementAction(compId, symbolName, "${_HotspotL6}", "click", function(sym, e) {
-         window.open("pdf/lectura_apoyo_0.pdf", "_blank");
-
-      });
-      //Edge binding end
-
-      Symbol.bindElementAction(compId, symbolName, "${_HotspotL7}", "click", function(sym, e) {
-         window.open("pdf/lectura_apoyo_0.pdf", "_blank");
-
-      });
-      //Edge binding end
-
-      Symbol.bindElementAction(compId, symbolName, "${_HotspotL8}", "click", function(sym, e) {
-         window.open("pdf/lectura_apoyo_0.pdf", "_blank");
-
-      });
-      //Edge binding end
-
-      Symbol.bindElementAction(compId, symbolName, "${_HotspotL9}", "click", function(sym, e) {
-         window.open("pdf/lectura_apoyo_0.pdf", "_blank");
-
-      });
-      //Edge binding end
-
-   })("lecturas");
-   //Edge symbol end:'lecturas'
 
 })(jQuery, AdobeEdge, "EDGE-217058342");

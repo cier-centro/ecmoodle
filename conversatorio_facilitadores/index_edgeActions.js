@@ -50,8 +50,8 @@ var Composition = Edge.Composition, Symbol = Edge.Symbol; // los alias más comu
       });
       //Edge binding end
 
-      Symbol.bindElementAction(compId, symbolName, "${_hotspot_guia}", "click", function(sym, e) {
-         window.open("pdf/gia_de_navegacion.pdf", "_blacnk");
+      Symbol.bindElementAction(compId, symbolName, "${_Rectangle}", "click", function(sym, e) {
+         window.open("pdf/Guía de navegación EC.pdf", "_blanck");
 
       });
       //Edge binding end

@@ -14,7 +14,7 @@
 			"timelineColor3":"0x29647e",
 			"animationEnabled":"true",
 			"timelineColor":"0x00a9fa"}},
-	"expanded:images/character.png":"nil",
+	"expanded:images/contenido2.png":"nil",
 	"btn_bienvenida-Default Timeline_playhead_ms":"0",
 	"brillo-Default Timeline_playhead_ms":"0",
 	"expanded:images/btn_inicio.png":"nil",
@@ -22,7 +22,7 @@
 	"etiqueta-Default Timeline_playhead_ms":"0",
 	"expanded:images/foot.png":"nil",
 	"nextElementColorIndex":"14",
-	"stage-Default Timeline_playhead_ms":"3250",
+	"stage-Default Timeline_playhead_ms":"4750",
 	"expanded:images/etiqueta2.png":"nil",
 	"expanded:images/btn_inicio_3.png":"nil",
 	"HTMLFileName":"index.html",
@@ -185,7 +185,6 @@
 			"timelineColor":"0xceaef4"}},
 	"etiqueta-Default Timeline_mark_ms":"500",
 	"chest-Default Timeline_mark_ms":"-1",
-	"expanded:images/lecturas.png":"nil",
 	"expanded:images/plantilla2.png":"nil",
 	"pref__general__AutoKeyframeProperties":"false",
 	"trunk_2-Default Timeline_playhead_ms":"0",
@@ -207,6 +206,7 @@
 			"animationEnabled":"true",
 			"timelineColor":"0xceaef4"}},
 	"pref__general__FilterNonAnimatedElements":"false",
+	"expanded:images/btn_next.png":"nil",
 	"expanded:images/etiqueta.png":"nil",
 	"StageZoomFactor":"100",
 	"pixelsPerMs":"0.077979205383856",
@@ -219,10 +219,14 @@
 	"stage-Default Timeline_mark_ms":"-1",
 	"expanded:images/contenido.png":"nil",
 	"expanded:images/background.png":"nil",
+	"expanded:images/2_contenido_ec_rcf_1.png":"nil",
+	"expanded:images/aprendiz_3b2.png":"nil",
+	"expanded:images/character2.png":"nil",
+	"expanded:images/2_contenido_ec_rcf_2.png":"nil",
+	"expanded:images/aprendiz_3a2.png":"nil",
 	"character_1-Default Timeline_playhead_ms":"0",
-	"expanded:images/contenido2.png":"nil",
-	"contenido-Default Timeline_playhead_ms":"0",
 	"expanded:images/btn_inicio_2.png":"nil",
+	"contenido-Default Timeline_playhead_ms":"0",
 	"symbol_character":{
 		"element_${_hair}":{
 			"timelineColor2":"0x326a96",
@@ -243,17 +247,7 @@
 			"timelineColor3":"0x2a605c",
 			"animationEnabled":"true",
 			"timelineColor":"0x00a096"}},
-	"expanded:images/2_contenido_ec_rcf_2.png":"nil",
-	"symbol_character_1":{
-		"element_${_trunk}":{
-			"timelineColor2":"0xcbbd71",
-			"timelineColor3":"0x7b7652",
-			"animationEnabled":"true",
-			"timelineColor":"0xeedf79"},
-		"element_${_legs}":{
-			"timelineColor2":"0x81aa62",
-			"timelineColor3":"0x5b6c4d",
-			"timelineColor":"0x91c767"}},
+	"expanded:images/preloader2.gif":"nil",
 	"symbol_trunk_2":{
 		"element_${_head}":{
 			"timelineColor2":"0x4fa275",
@@ -265,11 +259,22 @@
 			"timelineColor3":"0x2a6a61",
 			"animationEnabled":"true",
 			"timelineColor":"0x00bda4"}},
+	"symbol_character_1":{
+		"element_${_trunk}":{
+			"timelineColor2":"0xcbbd71",
+			"timelineColor3":"0x7b7652",
+			"animationEnabled":"true",
+			"timelineColor":"0xeedf79"},
+		"element_${_legs}":{
+			"timelineColor2":"0x81aa62",
+			"timelineColor3":"0x5b6c4d",
+			"timelineColor":"0x91c767"}},
+	"expanded:images/2_contenido_ec_rcf_6.png":"nil",
 	"expanded:images/aprendiz_3b.png":"nil",
 	"character-Default Timeline_playhead_ms":"0",
-	"viewStartMs":"-64.119658252316",
+	"viewStartMs":"-64.11962890625",
 	"expanded:images/2_pop_ec_rcf_2.png":"nil",
-	"expanded:images/2_contenido_ec_rcf_6.png":"nil",
+	"usedBOM":"false",
 	"symbol_stage":{
 		"element_${_contenidoCopy3}":{
 			"timelineColor2":"0x326a96",
@@ -298,10 +303,6 @@
 			"timelineColor":"0xfb657a",
 			"animationEnabled":"false",
 			"timelineColor3":"0x7e4b52"},
-		"element_${_Rectangle}":{
-			"timelineColor2":"0xd8b467",
-			"timelineColor3":"0x81714f",
-			"timelineColor":"0xffd46d"},
 		"element_${_etiqueta}":{
 			"timelineColor2":"0x81aa62",
 			"timelineColor3":"0x5b6c4d",
@@ -323,6 +324,10 @@
 			"timelineColor":"0x00a9fa",
 			"animationEnabled":"true",
 			"invisible":"false"},
+		"element_${_hotspot_guia}":{
+			"timelineColor2":"0xd8b467",
+			"timelineColor3":"0x81714f",
+			"timelineColor":"0xffd46d"},
 		"element_${_hotspot_1}":{
 			"timelineColor2":"0x81aa62",
 			"timelineColor3":"0x5b6c4d",
@@ -425,7 +430,7 @@
 			"timelineColor":"0xeedf79"},
 		"defaultStageParentWidth":"1366px"},
 	"TransitionIdCounter":"164",
-	"usedBOM":"false",
+	"expanded:images/character.png":"nil",
 	"viewStartY":"0",
 	"expanded:images/2_contenido_ec_rcf_5.png":"nil",
 	"contenido-Default Timeline_mark_ms":"-1",

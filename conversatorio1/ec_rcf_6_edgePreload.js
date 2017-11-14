@@ -61,7 +61,15 @@ loadResources(aLoader, doDelayLoad);
 
 var plSTF="both",ctrPlS="both",minPlW="341px",maxPlW="1366px",plWidth="1366px",plHeight="768px";
 
-preContent={dom: [ ]};//simpleContent
+preContent={
+    dom: [
+    {
+        id: 'preloader2',
+        type: 'image',
+        tag: 'img',
+        rect: ['652', '375','62px','18px','auto', 'auto'],
+        fill: ["rgba(0,0,0,0)",'images/preloader2.gif','0px','0px']
+    }]};//simpleContent
 
 dlContent={dom: [ ]};//simpleContent
 

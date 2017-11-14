@@ -169,24 +169,26 @@ var Composition = Edge.Composition, Symbol = Edge.Symbol; // los alias más comu
    (function(symbolName) {   
    
       Symbol.bindElementAction(compId, symbolName, "${_hotspot_2}", "click", function(sym, e) {
-         window.open("pdf/guia_participante_falicitadores_bienvenida.pdf", "_blank");
+         window.open("pdf/Guia-del-participante_Facilitadores_Bienvenida.pdf", "_blank");
          sym.$("brillo_r2").hide();
 
       });
       //Edge binding end
 
       Symbol.bindElementAction(compId, symbolName, "${_hotspot_3}", "click", function(sym, e) {
-         //window.open("pdf/lectura_apoyo_0.pdf", "_blank");
-         sym.$("lecturas").fadeIn("slow");
-         sym.getSymbol("lecturas").play(1);
+         sym.getSymbol("lecturas2").play(1);
+         sym.$("lecturas2").fadeIn("slow");
          sym.$("brillo_r3").hide();
 
       });
       //Edge binding end
 
       Symbol.bindElementAction(compId, symbolName, "${_hotspot_4}", "click", function(sym, e) {
-         window.open("pdf/guia_video_0.pdf", "_blank");
+         window.open("pdf/GUÍA PARA LA ELABORACIÓN DEL VIDEO.pdf", "_blank");
          sym.$("brillo_r4").hide();
+         //sym.getSymbol("videos").play();
+         //sym.$("videos").fadeIn("slow");
+         
 
       });
       //Edge binding end
@@ -237,20 +239,18 @@ var Composition = Edge.Composition, Symbol = Edge.Symbol; // los alias más comu
    //Edge symbol end:'pop_1'
 
    //=========================================================
-
-   //=========================================================
    
    //Edge symbol: 'lecturas'
    (function(symbolName) {   
    
       Symbol.bindElementAction(compId, symbolName, "${_HotspotL1}", "click", function(sym, e) {
-         window.open("pdf/lectura_apoyo_0.pdf", "_blank");
+         window.open("pdf/Estrategias de facilitación.pdf", "_blank");
 
       });
       //Edge binding end
 
       Symbol.bindElementAction(compId, symbolName, "${_lecturas}", "click", function(sym, e) {
-         sym.getComposition().getStage().getSymbol("contenido").$("lecturas").fadeOut("slow");
+         sym.getComposition().getStage().getSymbol("contenido").$("lecturas2").fadeOut("slow");
          sym.getComposition().getStage().getSymbol("contenido").$("brillo_r3").show();
          
          
@@ -259,54 +259,51 @@ var Composition = Edge.Composition, Symbol = Edge.Symbol; // los alias más comu
       //Edge binding end
 
       Symbol.bindElementAction(compId, symbolName, "${_HotspotL2}", "click", function(sym, e) {
-         window.open("pdf/lectura_apoyo_0.pdf", "_blank");
+         window.open("pdf/Estudiante adulto en la era digital.pdf", "_blank");
 
       });
       //Edge binding end
 
       Symbol.bindElementAction(compId, symbolName, "${_HotspotL3}", "click", function(sym, e) {
-         window.open("pdf/lectura_apoyo_0.pdf", "_blank");
+         window.open("pdf/Lineamientos Organizacionales.pdf", "_blank");
 
       });
       //Edge binding end
 
-      Symbol.bindElementAction(compId, symbolName, "${_HotspotL4}", "click", function(sym, e) {
-         window.open("pdf/lectura_apoyo_0.pdf", "_blank");
+      
 
-      });
-      //Edge binding end
+      
 
-      Symbol.bindElementAction(compId, symbolName, "${_HotspotL5}", "click", function(sym, e) {
-         window.open("pdf/lectura_apoyo_0.pdf", "_blank");
+      
 
-      });
-      //Edge binding end
+      
 
-      Symbol.bindElementAction(compId, symbolName, "${_HotspotL6}", "click", function(sym, e) {
-         window.open("pdf/lectura_apoyo_0.pdf", "_blank");
+      
 
-      });
-      //Edge binding end
-
-      Symbol.bindElementAction(compId, symbolName, "${_HotspotL7}", "click", function(sym, e) {
-         window.open("pdf/lectura_apoyo_0.pdf", "_blank");
-
-      });
-      //Edge binding end
-
-      Symbol.bindElementAction(compId, symbolName, "${_HotspotL8}", "click", function(sym, e) {
-         window.open("pdf/lectura_apoyo_0.pdf", "_blank");
-
-      });
-      //Edge binding end
-
-      Symbol.bindElementAction(compId, symbolName, "${_HotspotL9}", "click", function(sym, e) {
-         window.open("pdf/lectura_apoyo_0.pdf", "_blank");
-
-      });
-      //Edge binding end
+      
 
    })("lecturas");
    //Edge symbol end:'lecturas'
+
+   //=========================================================
+   
+   //Edge symbol: 'videos'
+   (function(symbolName) {   
+   
+      Symbol.bindTriggerAction(compId, symbolName, "Default Timeline", 0, function(sym, e) {
+         sym.$("videoCont").html("<video width='722' height='406' title='Video' preload='auto' controls ><source src='video/Video invitacion.mp4' type='video/mp4'></video>");
+
+      });
+      //Edge binding end
+
+      Symbol.bindElementAction(compId, symbolName, "${_videos}", "click", function(sym, e) {
+         sym.getComposition().getStage().getSymbol("contenido").$("videos").fadeOut("slow");
+         
+
+      });
+      //Edge binding end
+
+   })("videos");
+   //Edge symbol end:'videos'
 
 })(jQuery, AdobeEdge, "EDGE-217058342");

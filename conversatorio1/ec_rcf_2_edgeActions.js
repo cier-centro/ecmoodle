@@ -169,15 +169,16 @@ var Composition = Edge.Composition, Symbol = Edge.Symbol; // los alias más comu
    (function(symbolName) {   
    
       Symbol.bindElementAction(compId, symbolName, "${_hotspot_2}", "click", function(sym, e) {
-         window.open("pdf/guia_participante_conversatorio_bienvenida.pdf", "_blank");
+         window.open("pdf/guia_participante_falicitadores_bienvenida.pdf", "_blank");
          sym.$("brillo_r2").hide();
 
       });
       //Edge binding end
 
       Symbol.bindElementAction(compId, symbolName, "${_hotspot_3}", "click", function(sym, e) {
-         sym.getSymbol("lecturas2").play(1);
-         sym.$("lecturas2").fadeIn("slow");
+         //window.open("pdf/lectura_apoyo_0.pdf", "_blank");
+         sym.$("lecturas").fadeIn("slow");
+         sym.getSymbol("lecturas").play(1);
          sym.$("brillo_r3").hide();
 
       });
@@ -236,6 +237,8 @@ var Composition = Edge.Composition, Symbol = Edge.Symbol; // los alias más comu
    //Edge symbol end:'pop_1'
 
    //=========================================================
+
+   //=========================================================
    
    //Edge symbol: 'lecturas'
    (function(symbolName) {   
@@ -247,7 +250,7 @@ var Composition = Edge.Composition, Symbol = Edge.Symbol; // los alias más comu
       //Edge binding end
 
       Symbol.bindElementAction(compId, symbolName, "${_lecturas}", "click", function(sym, e) {
-         sym.getComposition().getStage().getSymbol("contenido").$("lecturas2").fadeOut("slow");
+         sym.getComposition().getStage().getSymbol("contenido").$("lecturas").fadeOut("slow");
          sym.getComposition().getStage().getSymbol("contenido").$("brillo_r3").show();
          
          

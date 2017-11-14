@@ -41,21 +41,21 @@ var symbols = {
                 id: 'btn_inicio',
                 display: 'none',
                 type: 'image',
-                rect: ['79px', '155px','96px','96px','auto', 'auto'],
+                rect: ['79px', '150px','96px','96px','auto', 'auto'],
                 fill: ["rgba(0,0,0,0)",im+"btn_inicio_2.png",'0px','0px']
             },
             {
                 id: 'brillo',
                 display: 'none',
                 type: 'rect',
-                rect: ['87px', '163px','auto','auto','auto', 'auto'],
+                rect: ['87px', '158px','auto','auto','auto', 'auto'],
                 transform: [[],[],[],['0.80315','0.80315']]
             },
             {
                 id: 'hotspot_inicio',
                 display: 'none',
                 type: 'ellipse',
-                rect: ['87px', '164px','84px','84px','auto', 'auto'],
+                rect: ['87px', '159px','84px','84px','auto', 'auto'],
                 cursor: ['pointer'],
                 borderRadius: ["50%", "50%", "50%", "50%"],
                 fill: ["rgba(255,255,255,0)"],
@@ -95,12 +95,12 @@ var symbols = {
         "Base State": {
             "${_hotspot_inicio}": [
                 ["style", "display", 'none'],
-                ["style", "top", '164px'],
+                ["style", "top", '159px'],
                 ["style", "cursor", 'pointer'],
                 ["style", "left", '87px']
             ],
             "${_brillo}": [
-                ["style", "top", '163px'],
+                ["style", "top", '158px'],
                 ["transform", "scaleY", '0.26964'],
                 ["transform", "scaleX", '0.26964'],
                 ["style", "opacity", '0'],
@@ -119,7 +119,7 @@ var symbols = {
                 ["style", "width", '1366px']
             ],
             "${_btn_inicio}": [
-                ["style", "top", '155px'],
+                ["style", "top", '150px'],
                 ["transform", "scaleY", '0.33573'],
                 ["transform", "scaleX", '0.33573'],
                 ["style", "opacity", '0'],
@@ -1290,28 +1290,28 @@ var symbols = {
                     rect: ['0px', '0px', '1366px', '768px', 'auto', 'auto'],
                     id: '_2_contenido_ec_rcf_2',
                     type: 'image',
-                    clip: ['rect(138.8115234375px 1366px 290.223876953125px 0px)'],
-                    fill: ['rgba(0,0,0,0)', 'images/2_contenido_ec_rcf_4.png', '0px', '45.5146484375px']
+                    clip: ['rect(138.8115234375px 1366px 282.91455078125px 0px)'],
+                    fill: ['rgba(0,0,0,0)', 'images/2_contenido_ec_rcf_4.png', '0px', '24.086425781249px']
                 },
                 {
                     rect: ['0px', '0px', '1366px', '768px', 'auto', 'auto'],
                     id: '_2_contenido_ec_rcf_2Copy',
                     type: 'image',
-                    clip: ['rect(255.008544921875px 947.1455078125px 452.207763671875px 0px)'],
+                    clip: ['rect(258.579833984375px 947.1455078125px 425.51953125px 0px)'],
                     fill: ['rgba(0,0,0,0)', 'images/2_contenido_ec_rcf_4.png', '0px', '0px']
                 },
                 {
                     rect: ['0px', '0px', '1366px', '768px', 'auto', 'auto'],
                     id: '_2_contenido_ec_rcf_2Copy2',
                     type: 'image',
-                    clip: ['rect(454.255126953125px 963.48193359375px 523.713134765625px 0px)'],
+                    clip: ['rect(422.447021484375px 963.48193359375px 497.0390625px 0px)'],
                     fill: ['rgba(0,0,0,0)', 'images/2_contenido_ec_rcf_4.png', '0px', '0px']
                 },
                 {
                     rect: ['0px', '0px', '1366px', '768px', 'auto', 'auto'],
                     id: '_2_contenido_ec_rcf_2Copy7',
                     type: 'image',
-                    clip: ['rect(527.12744140625px 963.48193359375px 701.37060546875px 0px)'],
+                    clip: ['rect(500.837158203125px 963.48193359375px 667.442138671875px 0px)'],
                     fill: ['rgba(0,0,0,0)', 'images/2_contenido_ec_rcf_4.png', '0px', '0px']
                 },
                 {
@@ -1409,7 +1409,7 @@ var symbols = {
                 {
                     display: 'none',
                     type: 'rect',
-                    rect: ['0', '-1px', 'auto', 'auto', 'auto', 'auto'],
+                    rect: ['0', '0px', 'auto', 'auto', 'auto', 'auto'],
                     id: 'lecturas'
                 }
             ],
@@ -1430,7 +1430,10 @@ var symbols = {
             },
             {
                 id: 'lecturas',
-                symbolName: 'lecturas'
+                symbolName: 'lecturas',
+                autoPlay: {
+
+               }
             },
             {
                 id: 'brillo_r4',
@@ -1451,9 +1454,9 @@ var symbols = {
         "Base State": {
             "${__2_contenido_ec_rcf_2}": [
                 ["style", "top", '0px'],
-                ["style", "background-position", [0,45.5146484375], {valueTemplate:'@@0@@px @@1@@px'} ],
+                ["style", "background-position", [0,24.086425781249], {valueTemplate:'@@0@@px @@1@@px'} ],
                 ["style", "opacity", '0'],
-                ["style", "clip", [138.8115234375,1366,290.223876953125,0], {valueTemplate:'rect(@@0@@px @@1@@px @@2@@px @@3@@px)'} ],
+                ["style", "clip", [138.8115234375,1366,282.91455078125,0], {valueTemplate:'rect(@@0@@px @@1@@px @@2@@px @@3@@px)'} ],
                 ["style", "left", '-75px']
             ],
             "${__2_contenido_ec_rcf_2Copy3}": [
@@ -1497,7 +1500,7 @@ var symbols = {
                 ["style", "top", '-31px'],
                 ["style", "opacity", '0'],
                 ["style", "left", '0px'],
-                ["style", "clip", [454.255126953125,963.48193359375,523.713134765625,0], {valueTemplate:'rect(@@0@@px @@1@@px @@2@@px @@3@@px)'} ]
+                ["style", "clip", [422.447021484375,963.48193359375,497.0390625,0], {valueTemplate:'rect(@@0@@px @@1@@px @@2@@px @@3@@px)'} ]
             ],
             "${_brillo_r3}": [
                 ["style", "top", '410px'],
@@ -1513,7 +1516,7 @@ var symbols = {
                 ["style", "top", '0px'],
                 ["style", "opacity", '0'],
                 ["style", "left", '-116px'],
-                ["style", "clip", [255.008544921875,947.1455078125,452.207763671875,0], {valueTemplate:'rect(@@0@@px @@1@@px @@2@@px @@3@@px)'} ]
+                ["style", "clip", [258.579833984375,947.1455078125,425.51953125,0], {valueTemplate:'rect(@@0@@px @@1@@px @@2@@px @@3@@px)'} ]
             ],
             "${_hotspot_1}": [
                 ["style", "top", '300px'],
@@ -1522,33 +1525,33 @@ var symbols = {
                 ["style", "cursor", 'pointer'],
                 ["style", "left", '979px']
             ],
-            "${_lecturas}": [
-                ["style", "top", '-1px'],
+            "${_brillo_r2}": [
+                ["style", "top", '355px'],
                 ["style", "display", 'none']
             ],
             "${_brillo_r1}": [
                 ["style", "display", 'none'],
                 ["style", "top", '300px']
             ],
-            "${_brillo_r2}": [
-                ["style", "top", '355px'],
-                ["style", "display", 'none']
-            ],
-            "${__2_contenido_ec_rcf_2Copy7}": [
-                ["style", "top", '-31px'],
-                ["style", "opacity", '0'],
-                ["style", "left", '0px'],
-                ["style", "clip", [527.12744140625,963.48193359375,701.37060546875,0], {valueTemplate:'rect(@@0@@px @@1@@px @@2@@px @@3@@px)'} ]
-            ],
-            "${_brillo_r4}": [
-                ["style", "top", '462px'],
-                ["style", "display", 'none']
-            ],
             "${__2_contenido_ec_rcf_2Copy4}": [
                 ["style", "top", '-33px'],
                 ["style", "opacity", '0'],
                 ["style", "left", '0px'],
                 ["style", "clip", [356.07568359375,1284.296875,409.336181640625,978.68310546875], {valueTemplate:'rect(@@0@@px @@1@@px @@2@@px @@3@@px)'} ]
+            ],
+            "${__2_contenido_ec_rcf_2Copy7}": [
+                ["style", "top", '-31px'],
+                ["style", "opacity", '0'],
+                ["style", "left", '0px'],
+                ["style", "clip", [500.837158203125,963.48193359375,667.442138671875,0], {valueTemplate:'rect(@@0@@px @@1@@px @@2@@px @@3@@px)'} ]
+            ],
+            "${_lecturas}": [
+                ["style", "top", '0px'],
+                ["style", "display", 'none']
+            ],
+            "${_brillo_r4}": [
+                ["style", "top", '462px'],
+                ["style", "display", 'none']
             ]
         }
     },
@@ -1570,20 +1573,20 @@ var symbols = {
                 { id: "eid170", tween: [ "style", "${__2_contenido_ec_rcf_2Copy6}", "top", '0px', { fromValue: '-33px'}], position: 1725, duration: 500, easing: "easeOutBack" },
                 { id: "eid194", tween: [ "style", "${_brillo_r2}", "display", 'block', { fromValue: 'none'}], position: 2250, duration: 0 },
                 { id: "eid240", tween: [ "style", "${_hotspot_2}", "display", 'block', { fromValue: 'none'}], position: 2000, duration: 0, easing: "easeOutBack" },
-                { id: "eid261", tween: [ "style", "${_lecturas}", "display", 'none', { fromValue: 'none'}], position: 0, duration: 0 },
                 { id: "eid249", tween: [ "style", "${__2_contenido_ec_rcf_2}", "left", '0px', { fromValue: '-75px'}], position: 750, duration: 750, easing: "easeOutBack" },
+                { id: "eid193", tween: [ "style", "${_brillo_r1}", "display", 'block', { fromValue: 'none'}], position: 1980, duration: 0 },
                 { id: "eid250", tween: [ "style", "${__2_contenido_ec_rcf_2Copy5}", "top", '0px', { fromValue: '-33px'}], position: 1806, duration: 500, easing: "easeOutBack" },
                 { id: "eid176", tween: [ "style", "${__2_contenido_ec_rcf_2Copy4}", "top", '0px', { fromValue: '-33px'}], position: 1610, duration: 500, easing: "easeOutBack" },
                 { id: "eid251", tween: [ "style", "${__2_contenido_ec_rcf_2Copy5}", "opacity", '1', { fromValue: '0'}], position: 1806, duration: 500, easing: "easeOutBack" },
                 { id: "eid158", tween: [ "style", "${__2_contenido_ec_rcf_2}", "opacity", '1', { fromValue: '0'}], position: 750, duration: 750, easing: "easeOutBack" },
-                { id: "eid193", tween: [ "style", "${_brillo_r1}", "display", 'block', { fromValue: 'none'}], position: 1980, duration: 0 },
-                { id: "eid195", tween: [ "style", "${_brillo_r3}", "display", 'block', { fromValue: 'none'}], position: 2549, duration: 0 },
+                { id: "eid245", tween: [ "style", "${__2_contenido_ec_rcf_2Copy7}", "opacity", '1', { fromValue: '0'}], position: 1360, duration: 750, easing: "easeOutBack" },
                 { id: "eid160", tween: [ "style", "${__2_contenido_ec_rcf_2Copy}", "left", '0px', { fromValue: '-116px'}], position: 1000, duration: 610, easing: "easeOutBack" },
+                { id: "eid195", tween: [ "style", "${_brillo_r3}", "display", 'block', { fromValue: 'none'}], position: 2549, duration: 0 },
                 { id: "eid253", tween: [ "style", "${_hotspot_4}", "display", 'block', { fromValue: 'none'}], position: 2000, duration: 0, easing: "easeOutBack" },
                 { id: "eid182", tween: [ "style", "${__2_contenido_ec_rcf_2Copy3}", "opacity", '1', { fromValue: '0'}], position: 1500, duration: 500, easing: "easeOutBack" },
                 { id: "eid166", tween: [ "style", "${__2_contenido_ec_rcf_2Copy2}", "top", '0px', { fromValue: '-31px'}], position: 1250, duration: 750, easing: "easeOutBack" },
-                { id: "eid245", tween: [ "style", "${__2_contenido_ec_rcf_2Copy7}", "opacity", '1', { fromValue: '0'}], position: 1360, duration: 750, easing: "easeOutBack" },
-                { id: "eid174", tween: [ "style", "${__2_contenido_ec_rcf_2Copy3}", "top", '0px', { fromValue: '-33px'}], position: 1500, duration: 500, easing: "easeOutBack" }            ]
+                { id: "eid174", tween: [ "style", "${__2_contenido_ec_rcf_2Copy3}", "top", '0px', { fromValue: '-33px'}], position: 1500, duration: 500, easing: "easeOutBack" },
+                { id: "eid261", tween: [ "style", "${_lecturas}", "display", 'none', { fromValue: 'none'}], position: 0, duration: 0 }            ]
         }
     }
 },
@@ -1774,10 +1777,10 @@ var symbols = {
                     id: 'lecturas',
                     type: 'image',
                     rect: ['auto', 'auto', '1366px', '768px', '-96px', '0px'],
-                    fill: ['rgba(0,0,0,0)', 'images/lecturas2.png', '0px', '0px']
+                    fill: ['rgba(0,0,0,0)', 'images/lec-bienvenida.png', '0px', '0px']
                 },
                 {
-                    rect: ['714px', '188px', '455px', '51px', 'auto', 'auto'],
+                    rect: ['714px', '397px', '455px', '51px', 'auto', 'auto'],
                     display: 'none',
                     type: 'rect',
                     id: 'HotspotL1',
@@ -1786,7 +1789,7 @@ var symbols = {
                     fill: ['rgba(255,255,255,0)']
                 },
                 {
-                    rect: ['714px', '239px', '455px', '49px', 'auto', 'auto'],
+                    rect: ['714px', '448px', '455px', '49px', 'auto', 'auto'],
                     display: 'none',
                     type: 'rect',
                     id: 'HotspotL2',
@@ -1795,64 +1798,10 @@ var symbols = {
                     fill: ['rgba(255,255,255,0)']
                 },
                 {
-                    rect: ['714px', '288px', '455px', '49px', 'auto', 'auto'],
+                    rect: ['714px', '497px', '455px', '49px', 'auto', 'auto'],
                     display: 'none',
                     type: 'rect',
                     id: 'HotspotL3',
-                    stroke: [0, 'rgb(0, 0, 0)', 'none'],
-                    cursor: ['pointer'],
-                    fill: ['rgba(255,255,255,0)']
-                },
-                {
-                    rect: ['714px', '337px', '455px', '47px', 'auto', 'auto'],
-                    display: 'none',
-                    type: 'rect',
-                    id: 'HotspotL4',
-                    stroke: [0, 'rgb(0, 0, 0)', 'none'],
-                    cursor: ['pointer'],
-                    fill: ['rgba(255,255,255,0)']
-                },
-                {
-                    rect: ['714px', '384px', '455px', '47px', 'auto', 'auto'],
-                    display: 'none',
-                    type: 'rect',
-                    id: 'HotspotL5',
-                    stroke: [0, 'rgb(0, 0, 0)', 'none'],
-                    cursor: ['pointer'],
-                    fill: ['rgba(255,255,255,0)']
-                },
-                {
-                    rect: ['714px', '431px', '455px', '47px', 'auto', 'auto'],
-                    display: 'none',
-                    type: 'rect',
-                    id: 'HotspotL6',
-                    stroke: [0, 'rgb(0, 0, 0)', 'none'],
-                    cursor: ['pointer'],
-                    fill: ['rgba(255,255,255,0)']
-                },
-                {
-                    rect: ['714px', '478px', '455px', '47px', 'auto', 'auto'],
-                    display: 'none',
-                    type: 'rect',
-                    id: 'HotspotL7',
-                    stroke: [0, 'rgb(0, 0, 0)', 'none'],
-                    cursor: ['pointer'],
-                    fill: ['rgba(255,255,255,0)']
-                },
-                {
-                    rect: ['714px', '525px', '455px', '47px', 'auto', 'auto'],
-                    display: 'none',
-                    type: 'rect',
-                    id: 'HotspotL8',
-                    stroke: [0, 'rgb(0, 0, 0)', 'none'],
-                    cursor: ['pointer'],
-                    fill: ['rgba(255,255,255,0)']
-                },
-                {
-                    rect: ['714px', '572px', '455px', '59px', 'auto', 'auto'],
-                    display: 'none',
-                    type: 'rect',
-                    id: 'HotspotL9',
                     stroke: [0, 'rgb(0, 0, 0)', 'none'],
                     cursor: ['pointer'],
                     fill: ['rgba(255,255,255,0)']
@@ -1863,65 +1812,23 @@ var symbols = {
         },
     states: {
         "Base State": {
-            "${_HotspotL7}": [
-                ["style", "top", '478px'],
-                ["style", "display", 'none'],
-                ["style", "height", '47px'],
-                ["style", "cursor", 'pointer'],
-                ["style", "left", '714px']
-            ],
-            "${_HotspotL8}": [
-                ["style", "top", '525px'],
-                ["style", "display", 'none'],
-                ["style", "height", '47px'],
-                ["style", "cursor", 'pointer'],
-                ["style", "left", '714px']
-            ],
-            "${_HotspotL6}": [
-                ["style", "top", '431px'],
-                ["style", "display", 'none'],
-                ["style", "height", '47px'],
-                ["style", "cursor", 'pointer'],
-                ["style", "left", '714px']
-            ],
-            "${_HotspotL4}": [
-                ["style", "top", '337px'],
-                ["style", "display", 'none'],
-                ["style", "height", '47px'],
-                ["style", "cursor", 'pointer'],
-                ["style", "left", '714px']
-            ],
-            "${_HotspotL9}": [
-                ["style", "top", '572px'],
-                ["style", "display", 'none'],
-                ["style", "height", '59px'],
-                ["style", "cursor", 'pointer'],
-                ["style", "left", '714px']
-            ],
-            "${_HotspotL5}": [
-                ["style", "top", '384px'],
-                ["style", "display", 'none'],
-                ["style", "height", '47px'],
-                ["style", "cursor", 'pointer'],
-                ["style", "left", '714px']
-            ],
             "${symbolSelector}": [
                 ["style", "height", '768px'],
                 ["style", "width", '1366px']
             ],
-            "${_HotspotL1}": [
-                ["style", "top", '188px'],
-                ["style", "display", 'none'],
-                ["style", "height", '51px'],
+            "${_HotspotL3}": [
+                ["style", "top", '497px'],
+                ["style", "height", '49px'],
+                ["style", "left", '714px'],
                 ["style", "cursor", 'pointer'],
-                ["style", "left", '714px']
+                ["style", "display", 'none']
             ],
             "${_HotspotL2}": [
-                ["style", "top", '239px'],
-                ["style", "display", 'none'],
+                ["style", "top", '448px'],
                 ["style", "height", '49px'],
+                ["style", "left", '714px'],
                 ["style", "cursor", 'pointer'],
-                ["style", "left", '714px']
+                ["style", "display", 'none']
             ],
             "${_lecturas}": [
                 ["style", "top", 'auto'],
@@ -1931,12 +1838,12 @@ var symbols = {
                 ["style", "right", '-96px'],
                 ["style", "left", 'auto']
             ],
-            "${_HotspotL3}": [
-                ["style", "top", '288px'],
-                ["style", "display", 'none'],
-                ["style", "height", '49px'],
+            "${_HotspotL1}": [
+                ["style", "top", '397px'],
+                ["style", "height", '51px'],
+                ["style", "left", '714px'],
                 ["style", "cursor", 'pointer'],
-                ["style", "left", '714px']
+                ["style", "display", 'none']
             ]
         }
     },
@@ -1949,16 +1856,10 @@ var symbols = {
             timeline: [
                 { id: "eid252", tween: [ "style", "${_HotspotL1}", "display", 'block', { fromValue: 'none'}], position: 500, duration: 0, easing: "easeOutBack" },
                 { id: "eid247", tween: [ "style", "${_lecturas}", "right", '0px', { fromValue: '-96px'}], position: 0, duration: 500, easing: "easeOutBack" },
-                { id: "eid257", tween: [ "style", "${_HotspotL6}", "display", 'block', { fromValue: 'none'}], position: 500, duration: 0, easing: "easeOutBack" },
-                { id: "eid258", tween: [ "style", "${_HotspotL7}", "display", 'block', { fromValue: 'none'}], position: 500, duration: 0, easing: "easeOutBack" },
-                { id: "eid260", tween: [ "style", "${_HotspotL9}", "display", 'block', { fromValue: 'none'}], position: 500, duration: 0, easing: "easeOutBack" },
                 { id: "eid249", tween: [ "transform", "${_lecturas}", "scaleX", '1', { fromValue: '0'}], position: 0, duration: 500, easing: "easeOutBack" },
                 { id: "eid253", tween: [ "style", "${_HotspotL2}", "display", 'block', { fromValue: 'none'}], position: 500, duration: 0, easing: "easeOutBack" },
-                { id: "eid255", tween: [ "style", "${_HotspotL4}", "display", 'block', { fromValue: 'none'}], position: 500, duration: 0, easing: "easeOutBack" },
                 { id: "eid251", tween: [ "transform", "${_lecturas}", "scaleY", '1', { fromValue: '0'}], position: 0, duration: 500, easing: "easeOutBack" },
-                { id: "eid254", tween: [ "style", "${_HotspotL3}", "display", 'block', { fromValue: 'none'}], position: 500, duration: 0, easing: "easeOutBack" },
-                { id: "eid259", tween: [ "style", "${_HotspotL8}", "display", 'block', { fromValue: 'none'}], position: 500, duration: 0, easing: "easeOutBack" },
-                { id: "eid256", tween: [ "style", "${_HotspotL5}", "display", 'block', { fromValue: 'none'}], position: 500, duration: 0, easing: "easeOutBack" }            ]
+                { id: "eid254", tween: [ "style", "${_HotspotL3}", "display", 'block', { fromValue: 'none'}], position: 500, duration: 0, easing: "easeOutBack" }            ]
         }
     }
 }
