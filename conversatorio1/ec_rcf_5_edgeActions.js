@@ -171,7 +171,7 @@ var Composition = Edge.Composition, Symbol = Edge.Symbol; // los alias más comu
       
 
       Symbol.bindElementAction(compId, symbolName, "${_hotspot_2}", "click", function(sym, e) {
-         window.open("pdf/actividad_colaborativa_3.pdf", "_blank");
+         //window.open("pdf/actividad_colaborativa_3.pdf", "_blank");
          sym.$("brillo_r2").hide();
 
       });
@@ -187,7 +187,7 @@ var Composition = Edge.Composition, Symbol = Edge.Symbol; // los alias más comu
       //Edge binding end
 
       Symbol.bindElementAction(compId, symbolName, "${_hotspot_1}", "click", function(sym, e) {
-         window.open("pdf/encuentro_virtual_3.pdf", "_blank");
+         //window.open("pdf/encuentro_virtual_3.pdf", "_blank");
          sym.$("brillo_r1").hide();
 
       });
@@ -196,7 +196,7 @@ var Composition = Edge.Composition, Symbol = Edge.Symbol; // los alias más comu
       
 
       Symbol.bindElementAction(compId, symbolName, "${_hotspot_4}", "click", function(sym, e) {
-         window.open("pdf/guia_participante_facilitadores_encuentro3.pdf", "_blank");
+         window.open("http://application.colombiaaprende.edu.co/pluginfile.php/678023/mod_resource/content/1/Gu%C3%ADa%20del%20participante_Conversatorio1_Encuentro3.pdf", "_blank");
          sym.$("brillo_r3").hide();
 
       });
@@ -248,7 +248,7 @@ var Composition = Edge.Composition, Symbol = Edge.Symbol; // los alias más comu
    (function(symbolName) {   
    
       Symbol.bindElementAction(compId, symbolName, "${_HotspotL1}", "click", function(sym, e) {
-         window.open("pdf/lectura_apoyo_0.pdf", "_blank");
+         window.open("http://application.colombiaaprende.edu.co/pluginfile.php/678006/mod_resource/content/1/Decreto%20854%20de%202011.pdf", "_blank");
 
       });
       //Edge binding end
@@ -263,52 +263,24 @@ var Composition = Edge.Composition, Symbol = Edge.Symbol; // los alias más comu
       //Edge binding end
 
       Symbol.bindElementAction(compId, symbolName, "${_HotspotL2}", "click", function(sym, e) {
-         window.open("pdf/lectura_apoyo_0.pdf", "_blank");
+         window.open("http://application.colombiaaprende.edu.co/pluginfile.php/678022/mod_resource/content/1/Decreto%205012%20de%202009.pdf", "_blank");
 
       });
       //Edge binding end
 
-      Symbol.bindElementAction(compId, symbolName, "${_HotspotL3}", "click", function(sym, e) {
-         window.open("pdf/lectura_apoyo_0.pdf", "_blank");
+      
 
-      });
-      //Edge binding end
+      
 
-      Symbol.bindElementAction(compId, symbolName, "${_HotspotL4}", "click", function(sym, e) {
-         window.open("pdf/lectura_apoyo_0.pdf", "_blank");
+      
 
-      });
-      //Edge binding end
+      
 
-      Symbol.bindElementAction(compId, symbolName, "${_HotspotL5}", "click", function(sym, e) {
-         window.open("pdf/lectura_apoyo_0.pdf", "_blank");
+      
 
-      });
-      //Edge binding end
+      
 
-      Symbol.bindElementAction(compId, symbolName, "${_HotspotL6}", "click", function(sym, e) {
-         window.open("pdf/lectura_apoyo_0.pdf", "_blank");
-
-      });
-      //Edge binding end
-
-      Symbol.bindElementAction(compId, symbolName, "${_HotspotL7}", "click", function(sym, e) {
-         window.open("pdf/lectura_apoyo_0.pdf", "_blank");
-
-      });
-      //Edge binding end
-
-      Symbol.bindElementAction(compId, symbolName, "${_HotspotL8}", "click", function(sym, e) {
-         window.open("pdf/lectura_apoyo_0.pdf", "_blank");
-
-      });
-      //Edge binding end
-
-      Symbol.bindElementAction(compId, symbolName, "${_HotspotL9}", "click", function(sym, e) {
-         window.open("pdf/lectura_apoyo_0.pdf", "_blank");
-
-      });
-      //Edge binding end
+      
 
    })("lecturas");
    //Edge symbol end:'lecturas'

@@ -22,6 +22,12 @@ var Composition = Edge.Composition, Symbol = Edge.Symbol; // los alias más comu
       });
       //Edge binding end
 
+      Symbol.bindSymbolAction(compId, symbolName, "creationComplete", function(sym, e) {
+         sym.$("Container").html("<video width='740px' height='416px' title='Video' preload='auto' controls ><source src='http://application.colombiaaprende.edu.co/pluginfile.php/678004/mod_resource/content/1/Video invitacion.mp4' type='video/mp4'></video>");
+
+      });
+      //Edge binding end
+
    })("stage");
    //Edge symbol end:'stage'
 

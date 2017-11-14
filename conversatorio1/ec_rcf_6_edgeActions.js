@@ -171,7 +171,7 @@ var Composition = Edge.Composition, Symbol = Edge.Symbol; // los alias más comu
       
 
       Symbol.bindElementAction(compId, symbolName, "${_hotspot_2}", "click", function(sym, e) {
-         window.open("pdf/actividad_colaborativa_4.pdf", "_blank");
+         //window.open("pdf/actividad_colaborativa_4.pdf", "_blank");
          sym.$("brillo_r2").hide();
 
       });
@@ -189,7 +189,7 @@ var Composition = Edge.Composition, Symbol = Edge.Symbol; // los alias más comu
       //Edge binding end
 
       Symbol.bindElementAction(compId, symbolName, "${_hotspot_1}", "click", function(sym, e) {
-         window.open("pdf/encuentro_virtual_4.pdf", "_blank");
+         //window.open("pdf/encuentro_virtual_4.pdf", "_blank");
          sym.$("brillo_r1").hide();
 
       });
@@ -198,7 +198,7 @@ var Composition = Edge.Composition, Symbol = Edge.Symbol; // los alias más comu
       
 
       Symbol.bindElementAction(compId, symbolName, "${_hotspot_4}", "click", function(sym, e) {
-         window.open("pdf/guia_participante_facilitadores_encuentro4.pdf", "_blank");
+         window.open("http://application.colombiaaprende.edu.co/pluginfile.php/678024/mod_resource/content/1/Gu%C3%ADa%20del%20participante_Conversatorio1_Encuentro4.pdf", "_blank");
          sym.$("brillo_r4").hide();
 
       });
@@ -250,7 +250,7 @@ var Composition = Edge.Composition, Symbol = Edge.Symbol; // los alias más comu
    (function(symbolName) {   
    
       Symbol.bindElementAction(compId, symbolName, "${_HotspotL1}", "click", function(sym, e) {
-         window.open("pdf/lectura_apoyo_0.pdf", "_blank");
+         window.open("http://application.colombiaaprende.edu.co/pluginfile.php/678011/mod_resource/content/1/Introducci%C3%B3n%20a%20las%20pol%C3%ADticas%20p%C3%BAblicas.pdf", "_blank");
 
       });
       //Edge binding end
@@ -265,52 +265,24 @@ var Composition = Edge.Composition, Symbol = Edge.Symbol; // los alias más comu
       //Edge binding end
 
       Symbol.bindElementAction(compId, symbolName, "${_HotspotL2}", "click", function(sym, e) {
-         window.open("pdf/lectura_apoyo_0.pdf", "_blank");
+         window.open("http://application.colombiaaprende.edu.co/pluginfile.php/678015/mod_resource/content/1/MEN-ESAP%20Gu%C3%ADa%20metodol%C3%B3gica%20para%20la%20elaboraci%C3%B3n%20del%20plan%20sectorial.pdf", "_blank");
 
       });
       //Edge binding end
 
-      Symbol.bindElementAction(compId, symbolName, "${_HotspotL3}", "click", function(sym, e) {
-         window.open("pdf/lectura_apoyo_0.pdf", "_blank");
+      
 
-      });
-      //Edge binding end
+      
 
-      Symbol.bindElementAction(compId, symbolName, "${_HotspotL4}", "click", function(sym, e) {
-         window.open("pdf/lectura_apoyo_0.pdf", "_blank");
+      
 
-      });
-      //Edge binding end
+      
 
-      Symbol.bindElementAction(compId, symbolName, "${_HotspotL5}", "click", function(sym, e) {
-         window.open("pdf/lectura_apoyo_0.pdf", "_blank");
+      
 
-      });
-      //Edge binding end
+      
 
-      Symbol.bindElementAction(compId, symbolName, "${_HotspotL6}", "click", function(sym, e) {
-         window.open("pdf/lectura_apoyo_0.pdf", "_blank");
-
-      });
-      //Edge binding end
-
-      Symbol.bindElementAction(compId, symbolName, "${_HotspotL7}", "click", function(sym, e) {
-         window.open("pdf/lectura_apoyo_0.pdf", "_blank");
-
-      });
-      //Edge binding end
-
-      Symbol.bindElementAction(compId, symbolName, "${_HotspotL8}", "click", function(sym, e) {
-         window.open("pdf/lectura_apoyo_0.pdf", "_blank");
-
-      });
-      //Edge binding end
-
-      Symbol.bindElementAction(compId, symbolName, "${_HotspotL9}", "click", function(sym, e) {
-         window.open("pdf/lectura_apoyo_0.pdf", "_blank");
-
-      });
-      //Edge binding end
+      
 
    })("lecturas");
    //Edge symbol end:'lecturas'

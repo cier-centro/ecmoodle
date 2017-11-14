@@ -169,7 +169,7 @@ var Composition = Edge.Composition, Symbol = Edge.Symbol; // los alias más comu
    (function(symbolName) {   
    
       Symbol.bindElementAction(compId, symbolName, "${_hotspot_2}", "click", function(sym, e) {
-         window.open("pdf/guia_participante_falicitadores_bienvenida.pdf", "_blank");
+         window.open("http://application.colombiaaprende.edu.co/pluginfile.php/678005/mod_resource/content/1/Gu%C3%ADa%20del%20participante_Conversatorio1_Bienvenida.pdf", "_blank");
          sym.$("brillo_r2").hide();
 
       });
@@ -185,7 +185,7 @@ var Composition = Edge.Composition, Symbol = Edge.Symbol; // los alias más comu
       //Edge binding end
 
       Symbol.bindElementAction(compId, symbolName, "${_hotspot_4}", "click", function(sym, e) {
-         window.open("pdf/guia_video_0.pdf", "_blank");
+         window.open("http://application.colombiaaprende.edu.co/pluginfile.php/678008/mod_resource/content/1/GU%C3%8DA%20PARA%20LA%20ELABORACI%C3%93N%20DEL%20VIDEO.pdf", "_blank");
          sym.$("brillo_r4").hide();
 
       });
@@ -244,7 +244,7 @@ var Composition = Edge.Composition, Symbol = Edge.Symbol; // los alias más comu
    (function(symbolName) {   
    
       Symbol.bindElementAction(compId, symbolName, "${_HotspotL1}", "click", function(sym, e) {
-         window.open("pdf/lectura_apoyo_0.pdf", "_blank");
+         window.open("http://application.colombiaaprende.edu.co/pluginfile.php/678006/mod_resource/content/1/Decreto%20854%20de%202011.pdf", "_blank");
 
       });
       //Edge binding end
@@ -259,49 +259,49 @@ var Composition = Edge.Composition, Symbol = Edge.Symbol; // los alias más comu
       //Edge binding end
 
       Symbol.bindElementAction(compId, symbolName, "${_HotspotL2}", "click", function(sym, e) {
-         window.open("pdf/lectura_apoyo_0.pdf", "_blank");
+         window.open("http://application.colombiaaprende.edu.co/pluginfile.php/678017/mod_resource/content/1/decreto%201075%20de%202015.pdf", "_blank");
 
       });
       //Edge binding end
 
       Symbol.bindElementAction(compId, symbolName, "${_HotspotL3}", "click", function(sym, e) {
-         window.open("pdf/lectura_apoyo_0.pdf", "_blank");
+         window.open("http://application.colombiaaprende.edu.co/pluginfile.php/678009/mod_resource/content/1/Decreto%205012%20de%202009.pdf", "_blank");
 
       });
       //Edge binding end
 
       Symbol.bindElementAction(compId, symbolName, "${_HotspotL4}", "click", function(sym, e) {
-         window.open("pdf/lectura_apoyo_0.pdf", "_blank");
+         window.open("http://application.colombiaaprende.edu.co/pluginfile.php/678011/mod_resource/content/1/Introducci%C3%B3n%20a%20las%20pol%C3%ADticas%20p%C3%BAblicas.pdf", "_blank");
 
       });
       //Edge binding end
 
       Symbol.bindElementAction(compId, symbolName, "${_HotspotL5}", "click", function(sym, e) {
-         window.open("pdf/lectura_apoyo_0.pdf", "_blank");
+         window.open("http://application.colombiaaprende.edu.co/pluginfile.php/678012/mod_resource/content/1/Ley%2030%20de%201992.pdf", "_blank");
 
       });
       //Edge binding end
 
       Symbol.bindElementAction(compId, symbolName, "${_HotspotL6}", "click", function(sym, e) {
-         window.open("pdf/lectura_apoyo_0.pdf", "_blank");
+         window.open("http://application.colombiaaprende.edu.co/pluginfile.php/678013/mod_resource/content/1/Ley%20715%20de%202001.pdf", "_blank");
 
       });
       //Edge binding end
 
       Symbol.bindElementAction(compId, symbolName, "${_HotspotL7}", "click", function(sym, e) {
-         window.open("pdf/lectura_apoyo_0.pdf", "_blank");
+         window.open("http://application.colombiaaprende.edu.co/pluginfile.php/678014/mod_resource/content/1/Ley%20General%20de%20Educaci%C3%B3n.pdf", "_blank");
 
       });
       //Edge binding end
 
       Symbol.bindElementAction(compId, symbolName, "${_HotspotL8}", "click", function(sym, e) {
-         window.open("pdf/lectura_apoyo_0.pdf", "_blank");
+         window.open("http://application.colombiaaprende.edu.co/pluginfile.php/678015/mod_resource/content/1/MEN-ESAP%20Gu%C3%ADa%20metodol%C3%B3gica%20para%20la%20elaboraci%C3%B3n%20del%20plan%20sectorial.pdf", "_blank");
 
       });
       //Edge binding end
 
       Symbol.bindElementAction(compId, symbolName, "${_HotspotL9}", "click", function(sym, e) {
-         window.open("pdf/lectura_apoyo_0.pdf", "_blank");
+         window.open("http://application.colombiaaprende.edu.co/pluginfile.php/678016/mod_resource/content/1/OCDE%20%282016%29%20Revisi%C3%B3n%20de%20pol%C3%ADticas%20nacionales%20de%20educaci%C3%B3n%20La%20educaci%C3%B3n%20en%20Colombia.pdf", "_blank");
 
       });
       //Edge binding end

@@ -246,7 +246,7 @@ var Composition = Edge.Composition, Symbol = Edge.Symbol; // los alias más comu
    (function(symbolName) {   
    
       Symbol.bindElementAction(compId, symbolName, "${_HotspotL1}", "click", function(sym, e) {
-         window.open("pdf/lectura_apoyo_0.pdf", "_blank");
+         window.open("http://application.colombiaaprende.edu.co/pluginfile.php/678017/mod_resource/content/1/decreto%201075%20de%202015.pdf", "_blank");
 
       });
       //Edge binding end
@@ -261,52 +261,36 @@ var Composition = Edge.Composition, Symbol = Edge.Symbol; // los alias más comu
       //Edge binding end
 
       Symbol.bindElementAction(compId, symbolName, "${_HotspotL2}", "click", function(sym, e) {
-         window.open("pdf/lectura_apoyo_0.pdf", "_blank");
+         window.open("http://application.colombiaaprende.edu.co/pluginfile.php/678012/mod_resource/content/1/Ley%2030%20de%201992.pdf", "_blank");
 
       });
       //Edge binding end
 
       Symbol.bindElementAction(compId, symbolName, "${_HotspotL3}", "click", function(sym, e) {
-         window.open("pdf/lectura_apoyo_0.pdf", "_blank");
+         window.open("http://application.colombiaaprende.edu.co/pluginfile.php/678013/mod_resource/content/1/Ley%20715%20de%202001.pdf", "_blank");
 
       });
       //Edge binding end
 
       Symbol.bindElementAction(compId, symbolName, "${_HotspotL4}", "click", function(sym, e) {
-         window.open("pdf/lectura_apoyo_0.pdf", "_blank");
+         window.open("http://application.colombiaaprende.edu.co/pluginfile.php/678014/mod_resource/content/1/Ley%20General%20de%20Educaci%C3%B3n.pdf", "_blank");
 
       });
       //Edge binding end
 
       Symbol.bindElementAction(compId, symbolName, "${_HotspotL5}", "click", function(sym, e) {
-         window.open("pdf/lectura_apoyo_0.pdf", "_blank");
+         window.open("http://application.colombiaaprende.edu.co/pluginfile.php/678016/mod_resource/content/1/OCDE%20%282016%29%20Revisi%C3%B3n%20de%20pol%C3%ADticas%20nacionales%20de%20educaci%C3%B3n%20La%20educaci%C3%B3n%20en%20Colombia.pdf", "_blank");
 
       });
       //Edge binding end
 
-      Symbol.bindElementAction(compId, symbolName, "${_HotspotL6}", "click", function(sym, e) {
-         window.open("pdf/lectura_apoyo_0.pdf", "_blank");
+      
 
-      });
-      //Edge binding end
+      
 
-      Symbol.bindElementAction(compId, symbolName, "${_HotspotL7}", "click", function(sym, e) {
-         window.open("pdf/lectura_apoyo_0.pdf", "_blank");
+      
 
-      });
-      //Edge binding end
-
-      Symbol.bindElementAction(compId, symbolName, "${_HotspotL8}", "click", function(sym, e) {
-         window.open("pdf/lectura_apoyo_0.pdf", "_blank");
-
-      });
-      //Edge binding end
-
-      Symbol.bindElementAction(compId, symbolName, "${_HotspotL9}", "click", function(sym, e) {
-         window.open("pdf/lectura_apoyo_0.pdf", "_blank");
-
-      });
-      //Edge binding end
+      
 
    })("lecturas");
    //Edge symbol end:'lecturas'
