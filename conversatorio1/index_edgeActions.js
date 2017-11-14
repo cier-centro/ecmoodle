@@ -14,7 +14,7 @@ var Composition = Edge.Composition, Symbol = Edge.Symbol; // los alias más comu
       
       
       Symbol.bindElementAction(compId, symbolName, "${_hotspot_1}", "click", function(sym, e) {
-         window.open("ec_rcf_2.html", "_self");
+         window.open("ec_rcf_1.html", "_self");
          
 
       });
