@@ -1419,18 +1419,17 @@ var symbols = {
                 ["style", "top", '410px'],
                 ["style", "display", 'none']
             ],
-            "${__2_contenido_ec_rcf_2}": [
-                ["style", "top", '0px'],
-                ["style", "background-position", [0,45.5146484375], {valueTemplate:'@@0@@px @@1@@px'} ],
-                ["style", "opacity", '0'],
-                ["style", "clip", [138.8115234375,1366,270.41357421875,0], {valueTemplate:'rect(@@0@@px @@1@@px @@2@@px @@3@@px)'} ],
-                ["style", "left", '-75px']
-            ],
-            "${__2_contenido_ec_rcf_2Copy3}": [
+            "${__2_contenido_ec_rcf_2Copy6}": [
                 ["style", "top", '-33px'],
                 ["style", "opacity", '0'],
                 ["style", "left", '0px'],
-                ["style", "clip", [295.654296875,1284.673828125,353.002685546875,979.06005859375], {valueTemplate:'rect(@@0@@px @@1@@px @@2@@px @@3@@px)'} ]
+                ["style", "clip", [409.828369140625,1284.296875,464.267578125,978.68310546875], {valueTemplate:'rect(@@0@@px @@1@@px @@2@@px @@3@@px)'} ]
+            ],
+            "${__2_contenido_ec_rcf_2Copy}": [
+                ["style", "top", '0px'],
+                ["style", "opacity", '0'],
+                ["style", "left", '-116px'],
+                ["style", "clip", [241.964599609375,947.1455078125,407.0205078125,0], {valueTemplate:'rect(@@0@@px @@1@@px @@2@@px @@3@@px)'} ]
             ],
             "${_hotspot_2}": [
                 ["style", "top", '357px'],
@@ -1446,11 +1445,12 @@ var symbols = {
                 ["style", "cursor", 'pointer'],
                 ["style", "left", '979px']
             ],
-            "${__2_contenido_ec_rcf_2Copy6}": [
-                ["style", "top", '-33px'],
+            "${__2_contenido_ec_rcf_2}": [
+                ["style", "top", '0px'],
+                ["style", "background-position", [0,45.5146484375], {valueTemplate:'@@0@@px @@1@@px'} ],
                 ["style", "opacity", '0'],
-                ["style", "left", '0px'],
-                ["style", "clip", [409.828369140625,1284.296875,464.267578125,978.68310546875], {valueTemplate:'rect(@@0@@px @@1@@px @@2@@px @@3@@px)'} ]
+                ["style", "clip", [138.8115234375,1366,270.41357421875,0], {valueTemplate:'rect(@@0@@px @@1@@px @@2@@px @@3@@px)'} ],
+                ["style", "left", '-75px']
             ],
             "${_hotspot_3}": [
                 ["style", "top", '410px'],
@@ -1467,11 +1467,11 @@ var symbols = {
                 ["style", "height", '768px'],
                 ["style", "width", '1366px']
             ],
-            "${__2_contenido_ec_rcf_2Copy7}": [
-                ["style", "top", '-31px'],
+            "${__2_contenido_ec_rcf_2Copy3}": [
+                ["style", "top", '-33px'],
                 ["style", "opacity", '0'],
                 ["style", "left", '0px'],
-                ["style", "clip", [479.624755859375,963.48193359375,657.683349609375,0], {valueTemplate:'rect(@@0@@px @@1@@px @@2@@px @@3@@px)'} ]
+                ["style", "clip", [295.654296875,1284.673828125,353.002685546875,979.06005859375], {valueTemplate:'rect(@@0@@px @@1@@px @@2@@px @@3@@px)'} ]
             ],
             "${_brillo_r2}": [
                 ["style", "top", '355px'],
@@ -1483,11 +1483,11 @@ var symbols = {
                 ["style", "left", '0px'],
                 ["style", "clip", [356.07568359375,1284.296875,409.336181640625,978.68310546875], {valueTemplate:'rect(@@0@@px @@1@@px @@2@@px @@3@@px)'} ]
             ],
-            "${__2_contenido_ec_rcf_2Copy}": [
-                ["style", "top", '0px'],
+            "${__2_contenido_ec_rcf_2Copy7}": [
+                ["style", "top", '-31px'],
                 ["style", "opacity", '0'],
-                ["style", "left", '-116px'],
-                ["style", "clip", [241.964599609375,947.1455078125,407.0205078125,0], {valueTemplate:'rect(@@0@@px @@1@@px @@2@@px @@3@@px)'} ]
+                ["style", "left", '0px'],
+                ["style", "clip", [479.624755859375,963.48193359375,657.683349609375,0], {valueTemplate:'rect(@@0@@px @@1@@px @@2@@px @@3@@px)'} ]
             ]
         }
     },
