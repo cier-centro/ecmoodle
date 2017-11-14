@@ -39,19 +39,19 @@ var Composition = Edge.Composition, Symbol = Edge.Symbol; // los alias más comu
       //Edge binding end
 
       Symbol.bindElementAction(compId, symbolName, "${_hotspot_5}", "click", function(sym, e) {
-         window.open("ec_rcf_5.html", "_self");
+         //window.open("ec_rcf_5.html", "_self");
 
       });
       //Edge binding end
 
       Symbol.bindElementAction(compId, symbolName, "${_hotspot_6}", "click", function(sym, e) {
-         window.open("ec_rcf_6.html", "_self");
+         //window.open("ec_rcf_6.html", "_self");
 
       });
       //Edge binding end
 
       Symbol.bindElementAction(compId, symbolName, "${_hotspot_guia}", "click", function(sym, e) {
-         //window.open("pdf/gia_de_navegacion.pdf", "_blacnk");
+         window.open("http://application.colombiaaprende.edu.co/pluginfile.php/678028/mod_resource/content/1/Gu%C3%ADa%20de%20navegaci%C3%B3n%20EC.pdf", "_blacnk");
 
       });
       //Edge binding end
