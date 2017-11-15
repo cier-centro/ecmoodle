@@ -169,7 +169,7 @@ var Composition = Edge.Composition, Symbol = Edge.Symbol; // los alias más comu
    (function(symbolName) {   
    
       Symbol.bindElementAction(compId, symbolName, "${_hotspot_2}", "click", function(sym, e) {
-         window.open("pdf/Guia-del-participante_Facilitadores_Bienvenida.pdf", "_blank");
+         window.open("http://application.colombiaaprende.edu.co/pluginfile.php/678140/mod_resource/content/1/Guia-del-participante_Facilitadores_Bienvenida.pdf", "_blank");
          sym.$("brillo_r2").hide();
 
       });
@@ -184,7 +184,7 @@ var Composition = Edge.Composition, Symbol = Edge.Symbol; // los alias más comu
       //Edge binding end
 
       Symbol.bindElementAction(compId, symbolName, "${_hotspot_4}", "click", function(sym, e) {
-         window.open("pdf/GUÍA PARA LA ELABORACIÓN DEL VIDEO.pdf", "_blank");
+         window.open("http://application.colombiaaprende.edu.co/pluginfile.php/678141/mod_resource/content/1/GU%C3%8DA%20PARA%20LA%20ELABORACI%C3%93N%20DEL%20VIDEO.pdf", "_blank");
          sym.$("brillo_r4").hide();
          //sym.getSymbol("videos").play();
          //sym.$("videos").fadeIn("slow");
@@ -244,7 +244,7 @@ var Composition = Edge.Composition, Symbol = Edge.Symbol; // los alias más comu
    (function(symbolName) {   
    
       Symbol.bindElementAction(compId, symbolName, "${_HotspotL1}", "click", function(sym, e) {
-         window.open("pdf/Estrategias de facilitación.pdf", "_blank");
+         window.open("http://application.colombiaaprende.edu.co/pluginfile.php/678143/mod_resource/content/1/Estrategias%20de%20facilitaci%C3%B3n.pdf", "_blank");
 
       });
       //Edge binding end
@@ -259,13 +259,13 @@ var Composition = Edge.Composition, Symbol = Edge.Symbol; // los alias más comu
       //Edge binding end
 
       Symbol.bindElementAction(compId, symbolName, "${_HotspotL2}", "click", function(sym, e) {
-         window.open("pdf/Estudiante adulto en la era digital.pdf", "_blank");
+         window.open("http://application.colombiaaprende.edu.co/pluginfile.php/678144/mod_resource/content/1/Estudiante%20adulto%20en%20la%20era%20digital.pdf", "_blank");
 
       });
       //Edge binding end
 
       Symbol.bindElementAction(compId, symbolName, "${_HotspotL3}", "click", function(sym, e) {
-         window.open("pdf/Lineamientos Organizacionales.pdf", "_blank");
+         window.open("http://application.colombiaaprende.edu.co/pluginfile.php/678150/mod_resource/content/1/Lineamientos%20Organizacionales.pdf", "_blank");
 
       });
       //Edge binding end

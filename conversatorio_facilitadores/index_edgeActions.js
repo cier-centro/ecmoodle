@@ -51,7 +51,7 @@ var Composition = Edge.Composition, Symbol = Edge.Symbol; // los alias más comu
       //Edge binding end
 
       Symbol.bindElementAction(compId, symbolName, "${_Rectangle}", "click", function(sym, e) {
-         window.open("pdf/Guía de navegación EC.pdf", "_blanck");
+         window.open("http://application.colombiaaprende.edu.co/pluginfile.php/678157/mod_resource/content/1/Gu%C3%ADa%20de%20navegaci%C3%B3n%20EC.pdf", "_blanck");
 
       });
       //Edge binding end
