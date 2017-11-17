@@ -169,7 +169,7 @@ var Composition = Edge.Composition, Symbol = Edge.Symbol; // los alias más comu
    (function(symbolName) {   
    
       Symbol.bindElementAction(compId, symbolName, "${_hotspot_2}", "click", function(sym, e) {
-         window.open("http://application.colombiaaprende.edu.co/pluginfile.php/678005/mod_resource/content/1/Gu%C3%ADa%20del%20participante_Conversatorio1_Bienvenida.pdf", "_blank");
+         window.open("http://application.colombiaaprende.edu.co/pluginfile.php/678361/mod_resource/content/1/Gui%CC%81a%20del%20participante_Conversatorio1_Bienvenida.pdf", "_blank");
          sym.$("brillo_r2").hide();
 
       });
@@ -185,7 +185,7 @@ var Composition = Edge.Composition, Symbol = Edge.Symbol; // los alias más comu
       //Edge binding end
 
       Symbol.bindElementAction(compId, symbolName, "${_hotspot_4}", "click", function(sym, e) {
-         window.open("http://application.colombiaaprende.edu.co/pluginfile.php/678008/mod_resource/content/1/GU%C3%8DA%20PARA%20LA%20ELABORACI%C3%93N%20DEL%20VIDEO.pdf", "_blank");
+         window.open("http://application.colombiaaprende.edu.co/pluginfile.php/678362/mod_resource/content/1/GUI%CC%81A%20PARA%20LA%20ELABORACIO%CC%81N%20DEL%20VIDEO.pdf", "_blank");
          sym.$("brillo_r4").hide();
 
       });
