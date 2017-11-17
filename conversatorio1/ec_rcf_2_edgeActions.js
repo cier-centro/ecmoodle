@@ -259,7 +259,7 @@ var Composition = Edge.Composition, Symbol = Edge.Symbol; // los alias más comu
       //Edge binding end
 
       Symbol.bindElementAction(compId, symbolName, "${_HotspotL2}", "click", function(sym, e) {
-         window.open("http://application.colombiaaprende.edu.co/pluginfile.php/678017/mod_resource/content/1/decreto%201075%20de%202015.pdf", "_blank");
+         window.open("http://www.alcaldiabogota.gov.co/sisjur/normas/Norma1.jsp?i=62510", "_blank");
 
       });
       //Edge binding end
