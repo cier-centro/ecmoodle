@@ -171,32 +171,27 @@ var Composition = Edge.Composition, Symbol = Edge.Symbol; // los alias más comu
       
 
       Symbol.bindElementAction(compId, symbolName, "${_hotspot_2}", "click", function(sym, e) {
-         //window.open("pdf/actividad_colaborativa_2.pdf", "_blank");
          sym.$("brillo_r2").hide();
-
+         window.open("http://application.colombiaaprende.edu.co/mod/forum/view.php?id=286186", "_blank");
       });
       //Edge binding end
 
       Symbol.bindElementAction(compId, symbolName, "${_hotspot_3}", "click", function(sym, e) {
-         //window.open("pdf/lectura_apoyo_2.pdf", "_blank");
+         sym.$("brillo_r3").hide();
          sym.$("lecturas").fadeIn("slow");
          sym.getSymbol("lecturas").play(1);
-         sym.$("brillo_r3").hide();
-
       });
       //Edge binding end
 
       Symbol.bindElementAction(compId, symbolName, "${_hotspot_1}", "click", function(sym, e) {
-         window.open("http://application.colombiaaprende.edu.co/mod/scorm/view.php?id=286160", "_blank");
          sym.$("brillo_r1").hide();
-
+         window.open("http://application.colombiaaprende.edu.co/mod/scorm/view.php?id=286160", "_blank");
       });
       //Edge binding end
 
       Symbol.bindElementAction(compId, symbolName, "${_hotspot_4}", "click", function(sym, e) {
-         window.open("http://application.colombiaaprende.edu.co/pluginfile.php/678210/mod_resource/content/1/Gu%C3%ADa%20del%20participante_Facilitadores_Encuentro2.pdf", "_blank");
          sym.$("brillo_r3").hide();
-
+         window.open("http://application.colombiaaprende.edu.co/pluginfile.php/678210/mod_resource/content/1/Gu%C3%ADa%20del%20participante_Facilitadores_Encuentro2.pdf", "_blank");         
       });
       //Edge binding end
 
