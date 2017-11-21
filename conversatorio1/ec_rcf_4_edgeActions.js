@@ -171,7 +171,7 @@ var Composition = Edge.Composition, Symbol = Edge.Symbol; // los alias más comu
       
 
       Symbol.bindElementAction(compId, symbolName, "${_hotspot_2}", "click", function(sym, e) {
-         //window.open("pdf/actividad_colaborativa_2.pdf", "_blank");
+         window.open("http://application.colombiaaprende.edu.co/mod/forum/view.php?id=286182", "_blank");
          sym.$("brillo_r2").hide();
 
       });
