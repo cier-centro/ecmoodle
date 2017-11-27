@@ -39,13 +39,13 @@ var Composition = Edge.Composition, Symbol = Edge.Symbol; // los alias más comu
       //Edge binding end
 
       Symbol.bindElementAction(compId, symbolName, "${_hotspot_5}", "click", function(sym, e) {
-         //window.open("ec_rcf_5.html", "_self");
+         window.open("ec_rcf_5.html", "_self");
 
       });
       //Edge binding end
 
       Symbol.bindElementAction(compId, symbolName, "${_hotspot_6}", "click", function(sym, e) {
-         //window.open("ec_rcf_6.html", "_self");
+         window.open("ec_rcf_6.html", "_self");
 
       });
       //Edge binding end
