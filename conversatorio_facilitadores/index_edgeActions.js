@@ -20,7 +20,7 @@ var Composition = Edge.Composition, Symbol = Edge.Symbol; // los alias más comu
       });
       //Edge binding end
 
-      Symbol.bindElementAction(compId, symbolName, "${_hotspot_2}", "click", function(sym, e) {
+      Symbol.bindElementAction(compId, symbolName, "${_aprendizaje_organizacional}", "click", function(sym, e) {
          //window.open("ec_rcf_3.html", "_self");
 
       });
@@ -50,7 +50,7 @@ var Composition = Edge.Composition, Symbol = Edge.Symbol; // los alias más comu
       });
       //Edge binding end
 
-      Symbol.bindElementAction(compId, symbolName, "${_Rectangle}", "click", function(sym, e) {
+      Symbol.bindElementAction(compId, symbolName, "${_guia_navegacion}", "click", function(sym, e) {
          window.open("http://application.colombiaaprende.edu.co/pluginfile.php/678157/mod_resource/content/1/Gu%C3%ADa%20de%20navegaci%C3%B3n%20EC.pdf", "_blanck");
 
       });
