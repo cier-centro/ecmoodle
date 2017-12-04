@@ -170,7 +170,7 @@ var Composition = Edge.Composition, Symbol = Edge.Symbol; // los alias más comu
    
       
 
-      Symbol.bindElementAction(compId, symbolName, "${_hotspot_2}", "click", function(sym, e) {
+      Symbol.bindElementAction(compId, symbolName, "${_actitud_colaborativa}", "click", function(sym, e) {
          sym.$("brillo_r2").hide();
          window.open("http://application.colombiaaprende.edu.co/mod/forum/view.php?id=286186", "_blank");
       });
@@ -183,13 +183,13 @@ var Composition = Edge.Composition, Symbol = Edge.Symbol; // los alias más comu
       });
       //Edge binding end
 
-      Symbol.bindElementAction(compId, symbolName, "${_hotspot_1}", "click", function(sym, e) {
+      Symbol.bindElementAction(compId, symbolName, "${_encuentro_virtual}", "click", function(sym, e) {
          sym.$("brillo_r1").hide();
          window.open("http://application.colombiaaprende.edu.co/mod/scorm/view.php?id=286160", "_blank");
       });
       //Edge binding end
 
-      Symbol.bindElementAction(compId, symbolName, "${_hotspot_4}", "click", function(sym, e) {
+      Symbol.bindElementAction(compId, symbolName, "${_guia_participante}", "click", function(sym, e) {
          sym.$("brillo_r3").hide();
          window.open("http://application.colombiaaprende.edu.co/pluginfile.php/678210/mod_resource/content/1/Gu%C3%ADa%20del%20participante_Facilitadores_Encuentro2.pdf", "_blank");         
       });
@@ -240,7 +240,7 @@ var Composition = Edge.Composition, Symbol = Edge.Symbol; // los alias más comu
    //Edge symbol: 'lecturas'
    (function(symbolName) {   
    
-      Symbol.bindElementAction(compId, symbolName, "${_HotspotL1}", "click", function(sym, e) {
+      Symbol.bindElementAction(compId, symbolName, "${_estrategias_facilitacion}", "click", function(sym, e) {
          window.open("http://application.colombiaaprende.edu.co/pluginfile.php/678143/mod_resource/content/1/Estrategias%20de%20facilitaci%C3%B3n.pdf", "_blank");
 
       });
@@ -255,13 +255,13 @@ var Composition = Edge.Composition, Symbol = Edge.Symbol; // los alias más comu
       });
       //Edge binding end
 
-      Symbol.bindElementAction(compId, symbolName, "${_HotspotL2}", "click", function(sym, e) {
+      Symbol.bindElementAction(compId, symbolName, "${_estudiante_adulto}", "click", function(sym, e) {
          window.open("http://application.colombiaaprende.edu.co/pluginfile.php/678144/mod_resource/content/1/Estudiante%20adulto%20en%20la%20era%20digital.pdf", "_blank");
 
       });
       //Edge binding end
 
-      Symbol.bindElementAction(compId, symbolName, "${_HotspotL3}", "click", function(sym, e) {
+      Symbol.bindElementAction(compId, symbolName, "${_lineamientos_organizacionales}", "click", function(sym, e) {
          window.open("http://application.colombiaaprende.edu.co/pluginfile.php/678150/mod_resource/content/1/Lineamientos%20Organizacionales.pdf", "_blank");
 
       });
