@@ -170,7 +170,7 @@ var Composition = Edge.Composition, Symbol = Edge.Symbol; // los alias más comu
    
       
 
-      Symbol.bindElementAction(compId, symbolName, "${_hotspot_2}", "click", function(sym, e) {
+      Symbol.bindElementAction(compId, symbolName, "${_actividad_colaborativa}", "click", function(sym, e) {
          //window.open("pdf/actividad_colaborativa_4.pdf", "_blank");
          sym.$("brillo_r2").hide();
 
@@ -188,7 +188,7 @@ var Composition = Edge.Composition, Symbol = Edge.Symbol; // los alias más comu
       });
       //Edge binding end
 
-      Symbol.bindElementAction(compId, symbolName, "${_hotspot_1}", "click", function(sym, e) {
+      Symbol.bindElementAction(compId, symbolName, "${_encuentro_virtual}", "click", function(sym, e) {
          window.open("http://application.colombiaaprende.edu.co/mod/scorm/view.php?id=286264", "_blank");
          sym.$("brillo_r1").hide();
 
@@ -197,7 +197,7 @@ var Composition = Edge.Composition, Symbol = Edge.Symbol; // los alias más comu
 
       
 
-      Symbol.bindElementAction(compId, symbolName, "${_hotspot_4}", "click", function(sym, e) {
+      Symbol.bindElementAction(compId, symbolName, "${_guia_participante}", "click", function(sym, e) {
          window.open("http://application.colombiaaprende.edu.co/pluginfile.php/678024/mod_resource/content/1/Gu%C3%ADa%20del%20participante_Conversatorio1_Encuentro4.pdf", "_blank");
          sym.$("brillo_r4").hide();
 
@@ -249,7 +249,7 @@ var Composition = Edge.Composition, Symbol = Edge.Symbol; // los alias más comu
    //Edge symbol: 'lecturas'
    (function(symbolName) {   
    
-      Symbol.bindElementAction(compId, symbolName, "${_HotspotL1}", "click", function(sym, e) {
+      Symbol.bindElementAction(compId, symbolName, "${_introduccion_politicas}", "click", function(sym, e) {
          window.open("http://application.colombiaaprende.edu.co/pluginfile.php/678011/mod_resource/content/1/Introducci%C3%B3n%20a%20las%20pol%C3%ADticas%20p%C3%BAblicas.pdf", "_blank");
 
       });
@@ -264,7 +264,7 @@ var Composition = Edge.Composition, Symbol = Edge.Symbol; // los alias más comu
       });
       //Edge binding end
 
-      Symbol.bindElementAction(compId, symbolName, "${_HotspotL2}", "click", function(sym, e) {
+      Symbol.bindElementAction(compId, symbolName, "${_guia_metodologica}", "click", function(sym, e) {
          window.open("http://application.colombiaaprende.edu.co/pluginfile.php/678015/mod_resource/content/1/MEN-ESAP%20Gu%C3%ADa%20metodol%C3%B3gica%20para%20la%20elaboraci%C3%B3n%20del%20plan%20sectorial.pdf", "_blank");
 
       });
