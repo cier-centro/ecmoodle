@@ -13,51 +13,9 @@ var Composition = Edge.Composition, Symbol = Edge.Symbol; // los alias más comu
    (function(symbolName) {
       
       
-      Symbol.bindElementAction(compId, symbolName, "${_hotspot_1}", "click", function(sym, e) {
-         window.open("ec_rcf_1.html", "_self");
+      Symbol.bindElementAction(compId, symbolName, "${_hotspot_inicio}", "click", function(sym, e) {
+         window.open("index.html", "_self");
          
-
-      });
-      //Edge binding end
-
-      Symbol.bindElementAction(compId, symbolName, "${_hotspot_2}", "click", function(sym, e) {
-         //window.open("ec_rcf_3.html", "_self");
-
-      });
-      //Edge binding end
-
-      Symbol.bindElementAction(compId, symbolName, "${_hotspot_3}", "click", function(sym, e) {
-         window.open("ec_rcf_3.html", "_self");
-
-      });
-      //Edge binding end
-
-      Symbol.bindElementAction(compId, symbolName, "${_hotspot_4}", "click", function(sym, e) {
-         window.open("ec_rcf_4.html", "_self");
-
-      });
-      //Edge binding end
-
-      Symbol.bindElementAction(compId, symbolName, "${_hotspot_5}", "click", function(sym, e) {
-         window.open("ec_rcf_5.html", "_self");
-
-      });
-      //Edge binding end
-
-      Symbol.bindElementAction(compId, symbolName, "${_hotspot_6}", "click", function(sym, e) {
-         window.open("ec_rcf_6.html", "_self");
-
-      });
-      //Edge binding end
-
-      Symbol.bindElementAction(compId, symbolName, "${_hotspot_guia}", "click", function(sym, e) {
-         window.open("http://application.colombiaaprende.edu.co/pluginfile.php/678363/mod_resource/content/1/Gui%CC%81a%20de%20navegacio%CC%81n%20EC.pdf", "_blacnk");
-
-      });
-      //Edge binding end
-
-      Symbol.bindElementAction(compId, symbolName, "${_hotspot_7}", "click", function(sym, e) {
-         window.open("ec_rcf_7.html", "_self");
 
       });
       //Edge binding end
@@ -72,14 +30,6 @@ var Composition = Edge.Composition, Symbol = Edge.Symbol; // los alias más comu
    
    })("etiqueta");
    //Edge symbol end:'etiqueta'
-
-   //=========================================================
-   
-   //Edge symbol: 'contenido'
-   (function(symbolName) {   
-   
-   })("contenido");
-   //Edge symbol end:'contenido'
 
    //=========================================================
    
@@ -214,46 +164,66 @@ var Composition = Edge.Composition, Symbol = Edge.Symbol; // los alias más comu
    //Edge symbol end:'btillo_t'
 
    //=========================================================
+   
+   //Edge symbol: 'contenido'
+   (function(symbolName) {   
+   
+      
+
+      Symbol.bindElementAction(compId, symbolName, "${_hotspot_2}", "click", function(sym, e) {
+         //window.open("pdf/actividad_colaborativa_4.pdf", "_blank");
+         sym.$("brillo_r2").hide();
+
+      });
+      //Edge binding end
+
+      Symbol.bindElementAction(compId, symbolName, "${_hotspot_3}", "click", function(sym, e) {
+         //window.open("pdf/lectura_apoyo.pdf", "_blank");
+         sym.getSymbol("lecturas").play(1);
+         sym.$("lecturas").fadeIn("slow");
+         
+         
+         sym.$("brillo_r3").hide();
+
+      });
+      //Edge binding end
+
+      Symbol.bindElementAction(compId, symbolName, "${_hotspot_1}", "click", function(sym, e) {
+         window.open("http://application.colombiaaprende.edu.co/mod/scorm/view.php?id=286264", "_blank");
+         sym.$("brillo_r1").hide();
+
+      });
+      //Edge binding end
+
+      
+
+      Symbol.bindElementAction(compId, symbolName, "${_hotspot_4}", "click", function(sym, e) {
+         window.open("http://application.colombiaaprende.edu.co/pluginfile.php/678024/mod_resource/content/1/Gu%C3%ADa%20del%20participante_Conversatorio1_Encuentro4.pdf", "_blank");
+         sym.$("brillo_r4").hide();
+
+      });
+      //Edge binding end
+
+   })("contenido");
+   //Edge symbol end:'contenido'
 
    //=========================================================
    
-   //Edge symbol: 'chest'
+   //Edge symbol: 'brillo_r'
    (function(symbolName) {   
    
-      Symbol.bindTriggerAction(compId, symbolName, "Default Timeline", 25000, function(sym, e) {
+      Symbol.bindTriggerAction(compId, symbolName, "Default Timeline", 2000, function(sym, e) {
          sym.play(0);
 
       });
       //Edge binding end
 
-   })("chest");
-   //Edge symbol end:'chest'
+   })("brillo_r");
+   //Edge symbol end:'brillo_r'
 
    //=========================================================
    
-   //Edge symbol: 'trunk'
-   (function(symbolName) {   
-   
-      Symbol.bindTriggerAction(compId, symbolName, "Default Timeline", 23000, function(sym, e) {
-         sym.play(0);
-
-      });
-      //Edge binding end
-
-   })("trunk_2");
-   //Edge symbol end:'trunk_2'
-
-   //=========================================================
-   
-   //Edge symbol: 'head'
-   (function(symbolName) {   
-   
-   })("head_1");
-   //Edge symbol end:'head_1'
-
-   //=========================================================
-   
-   //Edge symbol: 'mouth'
+   //Edge symbol: 'pop_1'
    (function(symbolName) {   
    
       Symbol.bindTriggerAction(compId, symbolName, "Default Timeline", 0, function(sym, e) {
@@ -262,41 +232,59 @@ var Composition = Edge.Composition, Symbol = Edge.Symbol; // los alias más comu
       });
       //Edge binding end
 
-      Symbol.bindTriggerAction(compId, symbolName, "Default Timeline", 2626, function(sym, e) {
-         sym.play('speak');
+      Symbol.bindElementAction(compId, symbolName, "${_cerrar}", "click", function(sym, e) {
+         sym.playReverse(750);
+         
 
       });
       //Edge binding end
 
-   })("mouth_1");
-   //Edge symbol end:'mouth_1'
+   })("pop_1");
+   //Edge symbol end:'pop_1'
+
+   //=========================================================
 
    //=========================================================
    
-   //Edge symbol: 'character'
+   //Edge symbol: 'lecturas'
    (function(symbolName) {   
    
-      Symbol.bindTriggerAction(compId, symbolName, "Default Timeline", 18000, function(sym, e) {
-         sym.play(0);
+      Symbol.bindElementAction(compId, symbolName, "${_HotspotL1}", "click", function(sym, e) {
+         window.open("http://application.colombiaaprende.edu.co/pluginfile.php/678011/mod_resource/content/1/Introducci%C3%B3n%20a%20las%20pol%C3%ADticas%20p%C3%BAblicas.pdf", "_blank");
 
       });
       //Edge binding end
 
-   })("character_1");
-   //Edge symbol end:'character_1'
-
-   //=========================================================
-   
-   //Edge symbol: 'eyes'
-   (function(symbolName) {   
-   
-      Symbol.bindTriggerAction(compId, symbolName, "Default Timeline", 23000, function(sym, e) {
-         sym.play(0);
+      Symbol.bindElementAction(compId, symbolName, "${_lecturas}", "click", function(sym, e) {
+         sym.getComposition().getStage().getSymbol("contenido").$("lecturas").fadeOut("slow");
+         sym.getComposition().getStage().getSymbol("contenido").$("brillo_r3").show();
+         
+         
 
       });
       //Edge binding end
 
-   })("eyes");
-   //Edge symbol end:'eyes'
+      Symbol.bindElementAction(compId, symbolName, "${_HotspotL2}", "click", function(sym, e) {
+         window.open("http://application.colombiaaprende.edu.co/pluginfile.php/678015/mod_resource/content/1/MEN-ESAP%20Gu%C3%ADa%20metodol%C3%B3gica%20para%20la%20elaboraci%C3%B3n%20del%20plan%20sectorial.pdf", "_blank");
+
+      });
+      //Edge binding end
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+   })("lecturas");
+   //Edge symbol end:'lecturas'
 
 })(jQuery, AdobeEdge, "EDGE-217058342");

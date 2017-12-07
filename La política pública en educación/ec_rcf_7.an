@@ -42,7 +42,7 @@
 	"stage-Default Timeline_playhead_ms":"2250",
 	"expanded:images/etiqueta2.png":"nil",
 	"expanded:images/btn_inicio_3.png":"nil",
-	"HTMLFileName":"ec_rcf_6.html",
+	"HTMLFileName":"ec_rcf_7.html",
 	"ModelData":"{\
 \"stage\": {\
    \"timelines\": {\
@@ -205,9 +205,11 @@
 			"animationEnabled":"true",
 			"timelineColor":"0xfb657a"}},
 	"stage-Default Timeline_mark_ms":"-1",
+	"expanded:images/lastButton.png":"nil",
 	"expanded:images/contenido.png":"nil",
 	"expanded:images/background.png":"nil",
 	"Precargador-Default Timeline_playhead_ms":"0",
+	"expanded:images/2_contenido_ec_rcf_7.png":"nil",
 	"brillo_r-Default Timeline_playhead_ms":"0",
 	"usedBOM":"false",
 	"pref__general__GenerateSmoothTransitions":"true",
