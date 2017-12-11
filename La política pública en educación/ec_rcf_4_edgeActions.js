@@ -170,7 +170,7 @@ var Composition = Edge.Composition, Symbol = Edge.Symbol; // los alias más comu
    
       
 
-      Symbol.bindElementAction(compId, symbolName, "${_hotspot_2}", "click", function(sym, e) {
+      Symbol.bindElementAction(compId, symbolName, "${_actividad_colaborativa}", "click", function(sym, e) {
          window.open("http://application.colombiaaprende.edu.co/mod/forum/view.php?id=286182", "_blank");
          sym.$("brillo_r2").hide();
 
@@ -186,14 +186,14 @@ var Composition = Edge.Composition, Symbol = Edge.Symbol; // los alias más comu
       });
       //Edge binding end
 
-      Symbol.bindElementAction(compId, symbolName, "${_hotspot_1}", "click", function(sym, e) {
+      Symbol.bindElementAction(compId, symbolName, "${_encuentro_virtual}", "click", function(sym, e) {
          window.open("http://application.colombiaaprende.edu.co/mod/scorm/view.php?id=286263", "_blank");
          sym.$("brillo_r1").hide();
 
       });
       //Edge binding end
 
-      Symbol.bindElementAction(compId, symbolName, "${_hotspot_4}", "click", function(sym, e) {
+      Symbol.bindElementAction(compId, symbolName, "${_guia_participante}", "click", function(sym, e) {
          window.open("http://application.colombiaaprende.edu.co/pluginfile.php/678369/mod_resource/content/1/Gui%CC%81a%20del%20participante_Conversatorio1_Encuentro2.pdf", "_blank");
          sym.$("brillo_r4").hide();
 
@@ -245,7 +245,7 @@ var Composition = Edge.Composition, Symbol = Edge.Symbol; // los alias más comu
    //Edge symbol: 'lecturas'
    (function(symbolName) {   
    
-      Symbol.bindElementAction(compId, symbolName, "${_HotspotL1}", "click", function(sym, e) {
+      Symbol.bindElementAction(compId, symbolName, "${_decreto_1075}", "click", function(sym, e) {
          window.open("http://www.alcaldiabogota.gov.co/sisjur/normas/Norma1.jsp?i=62510", "_blank");
 
       });
@@ -260,25 +260,25 @@ var Composition = Edge.Composition, Symbol = Edge.Symbol; // los alias más comu
       });
       //Edge binding end
 
-      Symbol.bindElementAction(compId, symbolName, "${_HotspotL2}", "click", function(sym, e) {
+      Symbol.bindElementAction(compId, symbolName, "${_ley_30}", "click", function(sym, e) {
          window.open("http://application.colombiaaprende.edu.co/pluginfile.php/678012/mod_resource/content/1/Ley%2030%20de%201992.pdf", "_blank");
 
       });
       //Edge binding end
 
-      Symbol.bindElementAction(compId, symbolName, "${_HotspotL3}", "click", function(sym, e) {
+      Symbol.bindElementAction(compId, symbolName, "${_ley_715}", "click", function(sym, e) {
          window.open("http://application.colombiaaprende.edu.co/pluginfile.php/678013/mod_resource/content/1/Ley%20715%20de%202001.pdf", "_blank");
 
       });
       //Edge binding end
 
-      Symbol.bindElementAction(compId, symbolName, "${_HotspotL4}", "click", function(sym, e) {
+      Symbol.bindElementAction(compId, symbolName, "${_ley_general}", "click", function(sym, e) {
          window.open("http://application.colombiaaprende.edu.co/pluginfile.php/678014/mod_resource/content/1/Ley%20General%20de%20Educaci%C3%B3n.pdf", "_blank");
 
       });
       //Edge binding end
 
-      Symbol.bindElementAction(compId, symbolName, "${_HotspotL5}", "click", function(sym, e) {
+      Symbol.bindElementAction(compId, symbolName, "${_revision_politicas}", "click", function(sym, e) {
          window.open("http://application.colombiaaprende.edu.co/pluginfile.php/678016/mod_resource/content/1/OCDE%20%282016%29%20Revisi%C3%B3n%20de%20pol%C3%ADticas%20nacionales%20de%20educaci%C3%B3n%20La%20educaci%C3%B3n%20en%20Colombia.pdf", "_blank");
 
       });
