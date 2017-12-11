@@ -170,7 +170,7 @@ var Composition = Edge.Composition, Symbol = Edge.Symbol; // los alias más comu
    
       
 
-      Symbol.bindElementAction(compId, symbolName, "${_hotspot_2}", "click", function(sym, e) {
+      Symbol.bindElementAction(compId, symbolName, "${_actividad_colaborativa}", "click", function(sym, e) {
          //window.open("pdf/actividad_colaborativa_3.pdf", "_blank");
          sym.$("brillo_r2").hide();
 
@@ -186,7 +186,7 @@ var Composition = Edge.Composition, Symbol = Edge.Symbol; // los alias más comu
       });
       //Edge binding end
 
-      Symbol.bindElementAction(compId, symbolName, "${_hotspot_1}", "click", function(sym, e) {
+      Symbol.bindElementAction(compId, symbolName, "${_encuentro_virtual}", "click", function(sym, e) {
          window.open("http://application.colombiaaprende.edu.co/mod/scorm/view.php?id=286265", "_blank");
          sym.$("brillo_r1").hide();
 
@@ -195,7 +195,7 @@ var Composition = Edge.Composition, Symbol = Edge.Symbol; // los alias más comu
 
       
 
-      Symbol.bindElementAction(compId, symbolName, "${_hotspot_4}", "click", function(sym, e) {
+      Symbol.bindElementAction(compId, symbolName, "${_guia_participante}", "click", function(sym, e) {
          window.open("http://application.colombiaaprende.edu.co/pluginfile.php/678023/mod_resource/content/1/Gu%C3%ADa%20del%20participante_Conversatorio1_Encuentro3.pdf", "_blank");
          sym.$("brillo_r3").hide();
 
@@ -247,7 +247,7 @@ var Composition = Edge.Composition, Symbol = Edge.Symbol; // los alias más comu
    //Edge symbol: 'lecturas'
    (function(symbolName) {   
    
-      Symbol.bindElementAction(compId, symbolName, "${_HotspotL1}", "click", function(sym, e) {
+      Symbol.bindElementAction(compId, symbolName, "${_mapas_planeacion}", "click", function(sym, e) {
          window.open("http://application.colombiaaprende.edu.co/pluginfile.php/678006/mod_resource/content/1/Decreto%20854%20de%202011.pdf", "_blank");
 
       });
@@ -262,11 +262,7 @@ var Composition = Edge.Composition, Symbol = Edge.Symbol; // los alias más comu
       });
       //Edge binding end
 
-      Symbol.bindElementAction(compId, symbolName, "${_HotspotL2}", "click", function(sym, e) {
-         window.open("http://application.colombiaaprende.edu.co/pluginfile.php/678022/mod_resource/content/1/Decreto%205012%20de%202009.pdf", "_blank");
-
-      });
-      //Edge binding end
+      
 
       
 
