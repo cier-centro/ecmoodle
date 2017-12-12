@@ -299,4 +299,32 @@ var Composition = Edge.Composition, Symbol = Edge.Symbol; // los alias más comu
    })("eyes");
    //Edge symbol end:'eyes'
 
+   //=========================================================
+   
+   //Edge symbol: 'sbtex'
+   (function(symbolName) {   
+   
+      Symbol.bindElementAction(compId, symbolName, "${_nuestras_experiencias}", "click", function(sym, e) {
+         //window.open("ec_rcf_3.html", "_blank");
+
+      });
+      //Edge binding end
+
+   })("sbtex");
+   //Edge symbol end:'sbtex'
+
+   //=========================================================
+   
+   //Edge symbol: 'shine'
+   (function(symbolName) {   
+   
+      Symbol.bindTriggerAction(compId, symbolName, "Default Timeline", 2500, function(sym, e) {
+         sym.play(0);
+
+      });
+      //Edge binding end
+
+   })("shine");
+   //Edge symbol end:'shine'
+
 })(jQuery, AdobeEdge, "EDGE-217058342");

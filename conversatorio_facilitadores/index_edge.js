@@ -402,6 +402,7 @@ var symbols = {
                 {
                     id: 'sbtex',
                     type: 'rect',
+                    transform: [[], [], [], [], ['47%', '49%']],
                     rect: ['1057px', '614px', 'auto', 'auto', 'auto', 'auto']
                 },
                 {
@@ -523,8 +524,14 @@ var symbols = {
     states: {
         "Base State": {
             "${_sbtex}": [
+                ["style", "top", '614px'],
                 ["style", "left", '1057px'],
-                ["style", "top", '614px']
+                ["style", "-webkit-transform-origin", [47,49], {valueTemplate:'@@0@@% @@1@@%'} ],
+                ["style", "-moz-transform-origin", [47,49],{valueTemplate:'@@0@@% @@1@@%'}],
+                ["style", "-ms-transform-origin", [47,49],{valueTemplate:'@@0@@% @@1@@%'}],
+                ["style", "msTransformOrigin", [47,49],{valueTemplate:'@@0@@% @@1@@%'}],
+                ["style", "-o-transform-origin", [47,49],{valueTemplate:'@@0@@% @@1@@%'}],
+                ["style", "transform-origin", [47,49],{valueTemplate:'@@0@@% @@1@@%'}]
             ],
             "${_deco}": [
                 ["style", "top", '0px'],
