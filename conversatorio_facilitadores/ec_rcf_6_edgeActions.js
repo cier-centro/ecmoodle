@@ -1,4 +1,4 @@
-/***********************
+﻿/***********************
 * Acciones de composición de Adobe Edge Animate
 *
 * Editar este archivo con precaución, teniendo cuidado de conservar 
@@ -171,7 +171,7 @@ var Composition = Edge.Composition, Symbol = Edge.Symbol; // los alias más comu
       
 
       Symbol.bindElementAction(compId, symbolName, "${_actividad_colaborativa}", "click", function(sym, e) {
-         //window.open("pdf/actividad_colaborativa_4.pdf", "_blank");
+         window.open("http://application.colombiaaprende.edu.co/mod/wiki/view.php?id=286299", "_blank");
          sym.$("brillo_r2").hide();
 
       });
