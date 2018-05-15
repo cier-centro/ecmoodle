@@ -249,7 +249,7 @@ var Composition = Edge.Composition, Symbol = Edge.Symbol; // los alias más comu
    //Edge symbol: 'lecturas'
    (function(symbolName) {   
    
-      Symbol.bindElementAction(compId, symbolName, "${_introduccion_politicas}", "click", function(sym, e) {
+      Symbol.bindElementAction(compId, symbolName, "${_enfoque_derechos}", "click", function(sym, e) {
          window.open("http://application.colombiaaprende.edu.co/pluginfile.php/678011/mod_resource/content/1/Introducci%C3%B3n%20a%20las%20pol%C3%ADticas%20p%C3%BAblicas.pdf", "_blank");
 
       });
@@ -264,7 +264,7 @@ var Composition = Edge.Composition, Symbol = Edge.Symbol; // los alias más comu
       });
       //Edge binding end
 
-      Symbol.bindElementAction(compId, symbolName, "${_guia_metodologica}", "click", function(sym, e) {
+      Symbol.bindElementAction(compId, symbolName, "${_enfoque_diferencial}", "click", function(sym, e) {
          window.open("http://application.colombiaaprende.edu.co/pluginfile.php/678015/mod_resource/content/1/MEN-ESAP%20Gu%C3%ADa%20metodol%C3%B3gica%20para%20la%20elaboraci%C3%B3n%20del%20plan%20sectorial.pdf", "_blank");
 
       });
