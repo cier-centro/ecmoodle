@@ -243,7 +243,7 @@ var Composition = Edge.Composition, Symbol = Edge.Symbol; // los alias más comu
    //Edge symbol: 'lecturas'
    (function(symbolName) {   
    
-      Symbol.bindElementAction(compId, symbolName, "${_decreto_854}", "click", function(sym, e) {
+      Symbol.bindElementAction(compId, symbolName, "${_modelos_evaluacion}", "click", function(sym, e) {
          window.open("http://application.colombiaaprende.edu.co/pluginfile.php/678006/mod_resource/content/1/Decreto%20854%20de%202011.pdf", "_blank");
 
       });
@@ -258,50 +258,62 @@ var Composition = Edge.Composition, Symbol = Edge.Symbol; // los alias más comu
       });
       //Edge binding end
 
-      Symbol.bindElementAction(compId, symbolName, "${_decreto_1075}", "click", function(sym, e) {
+      Symbol.bindElementAction(compId, symbolName, "${_acuerdo_superior}", "click", function(sym, e) {
          window.open("http://www.alcaldiabogota.gov.co/sisjur/normas/Norma1.jsp?i=62510", "_blank");
 
       });
       //Edge binding end
 
-      Symbol.bindElementAction(compId, symbolName, "${_decreto_5012}", "click", function(sym, e) {
+      Symbol.bindElementAction(compId, symbolName, "${_seguimiento_evaluacion}", "click", function(sym, e) {
          window.open("http://application.colombiaaprende.edu.co/pluginfile.php/678009/mod_resource/content/1/Decreto%205012%20de%202009.pdf", "_blank");
 
       });
       //Edge binding end
 
-      Symbol.bindElementAction(compId, symbolName, "${_introduccion_politicas}", "click", function(sym, e) {
+      Symbol.bindElementAction(compId, symbolName, "${_enfoque_derechos}", "click", function(sym, e) {
          window.open("http://application.colombiaaprende.edu.co/pluginfile.php/678011/mod_resource/content/1/Introducci%C3%B3n%20a%20las%20pol%C3%ADticas%20p%C3%BAblicas.pdf", "_blank");
 
       });
       //Edge binding end
 
-      Symbol.bindElementAction(compId, symbolName, "${_ley_30}", "click", function(sym, e) {
+      Symbol.bindElementAction(compId, symbolName, "${_educacion_inclusiva}", "click", function(sym, e) {
          window.open("http://application.colombiaaprende.edu.co/pluginfile.php/678012/mod_resource/content/1/Ley%2030%20de%201992.pdf", "_blank");
 
       });
       //Edge binding end
 
-      Symbol.bindElementAction(compId, symbolName, "${_ley_715}", "click", function(sym, e) {
+      Symbol.bindElementAction(compId, symbolName, "${_enfoque_diferencial}", "click", function(sym, e) {
          window.open("http://application.colombiaaprende.edu.co/pluginfile.php/678013/mod_resource/content/1/Ley%20715%20de%202001.pdf", "_blank");
 
       });
       //Edge binding end
 
-      Symbol.bindElementAction(compId, symbolName, "${_ley_general}", "click", function(sym, e) {
+      Symbol.bindElementAction(compId, symbolName, "${_educacion_colombia}", "click", function(sym, e) {
          window.open("http://application.colombiaaprende.edu.co/pluginfile.php/678014/mod_resource/content/1/Ley%20General%20de%20Educaci%C3%B3n.pdf", "_blank");
 
       });
       //Edge binding end
 
-      Symbol.bindElementAction(compId, symbolName, "${_guia_metodologica}", "click", function(sym, e) {
+      Symbol.bindElementAction(compId, symbolName, "${_pnde_2016}", "click", function(sym, e) {
          window.open("http://application.colombiaaprende.edu.co/pluginfile.php/678015/mod_resource/content/1/MEN-ESAP%20Gu%C3%ADa%20metodol%C3%B3gica%20para%20la%20elaboraci%C3%B3n%20del%20plan%20sectorial.pdf", "_blank");
 
       });
       //Edge binding end
 
-      Symbol.bindElementAction(compId, symbolName, "${_revision_politicas}", "click", function(sym, e) {
+      Symbol.bindElementAction(compId, symbolName, "${_plan_nacional}", "click", function(sym, e) {
          window.open("http://application.colombiaaprende.edu.co/pluginfile.php/678016/mod_resource/content/1/OCDE%20%282016%29%20Revisi%C3%B3n%20de%20pol%C3%ADticas%20nacionales%20de%20educaci%C3%B3n%20La%20educaci%C3%B3n%20en%20Colombia.pdf", "_blank");
+
+      });
+      //Edge binding end
+
+      Symbol.bindElementAction(compId, symbolName, "${_politica_publica}", "click", function(sym, e) {
+         window.open("http://application.colombiaaprende.edu.co/pluginfile.php/678006/mod_resource/content/1/Decreto%20854%20de%202011.pdf", "_blank");
+
+      });
+      //Edge binding end
+
+      Symbol.bindElementAction(compId, symbolName, "${_introduccion_politicas}", "click", function(sym, e) {
+         window.open("http://application.colombiaaprende.edu.co/pluginfile.php/678006/mod_resource/content/1/Decreto%20854%20de%202011.pdf", "_blank");
 
       });
       //Edge binding end
