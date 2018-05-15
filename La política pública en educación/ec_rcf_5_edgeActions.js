@@ -247,7 +247,7 @@ var Composition = Edge.Composition, Symbol = Edge.Symbol; // los alias más comu
    //Edge symbol: 'lecturas'
    (function(symbolName) {   
    
-      Symbol.bindElementAction(compId, symbolName, "${_decreto_854}", "click", function(sym, e) {
+      Symbol.bindElementAction(compId, symbolName, "${_acuerdo_superior}", "click", function(sym, e) {
          window.open("http://application.colombiaaprende.edu.co/pluginfile.php/678006/mod_resource/content/1/Decreto%20854%20de%202011.pdf", "_blank");
 
       });
@@ -262,7 +262,7 @@ var Composition = Edge.Composition, Symbol = Edge.Symbol; // los alias más comu
       });
       //Edge binding end
 
-      Symbol.bindElementAction(compId, symbolName, "${_decreto_5012}", "click", function(sym, e) {
+      Symbol.bindElementAction(compId, symbolName, "${_politica_publica}", "click", function(sym, e) {
          window.open("http://application.colombiaaprende.edu.co/pluginfile.php/678022/mod_resource/content/1/Decreto%205012%20de%202009.pdf", "_blank");
 
       });
@@ -281,6 +281,18 @@ var Composition = Edge.Composition, Symbol = Edge.Symbol; // los alias más comu
       
 
       
+
+      Symbol.bindElementAction(compId, symbolName, "${_plan_nacional}", "click", function(sym, e) {
+         window.open("http://application.colombiaaprende.edu.co/pluginfile.php/678006/mod_resource/content/1/Decreto%20854%20de%202011.pdf", "_blank");
+
+      });
+      //Edge binding end
+
+      Symbol.bindElementAction(compId, symbolName, "${_pnde_2016}", "click", function(sym, e) {
+         window.open("http://application.colombiaaprende.edu.co/pluginfile.php/678022/mod_resource/content/1/Decreto%205012%20de%202009.pdf", "_blank");
+
+      });
+      //Edge binding end
 
    })("lecturas");
    //Edge symbol end:'lecturas'
